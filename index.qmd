@@ -1,10 +1,10 @@
 ---
 title: La Palma Earthquakes
 author:
-  - name: Steve Purves
-    orcid: 0000-0002-0760-5497
+  - name: Rafik Margaryan, MD, PhD
+    orcid: 0000-0001-6005-472X
     corresponding: true
-    email: steve@curvenote.com
+    email: margaryan@ftgm.it
     roles:
       - Investigation
       - Project administration
@@ -12,8 +12,8 @@ author:
       - Visualization
     affiliations:
       - Curvenote
-  - name: Rowan Cockett
-    orcid: 0000-0002-7859-8394
+  - name: Giacomo Bianchi, MD, PhD
+    orcid: 0000-0003-4240-0099
     corresponding: false
     roles: []
     affiliations:
