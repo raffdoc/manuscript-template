@@ -11,7 +11,7 @@ author:
       - Software
       - Visualization
     affiliations:
-      - Curvenote
+      - Pentagon
   - name: Giacomo Bianchi, MD, PhD
     orcid: 0000-0003-4240-0099
     corresponding: false
