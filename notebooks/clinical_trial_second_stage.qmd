@@ -16,14 +16,14 @@ library(gtsummary)
 
 ```{r}
 
-first_stage_data_raw <- read_sheet("https://docs.google.com/spreadsheets/d/12EZz5S6ummuC9x5kwpWkjX7-l5bErUbtRZeJufXLK_o/edit?usp=sharing", sheet = "stage2")
+load("../data/data.RData")
 ```
 
 ```{r}
 #| label: tbl-demo-stage2
 #| echo: false
 #| tbl-cap: "Demographics of the second stage stage"
-first_stage_data_raw |>
+second_stage_data_raw |>
   select(trt, outcome, bmi, diabetis) |>
   tbl_summary() 
 ```
