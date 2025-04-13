@@ -37,7 +37,7 @@ number-sections: true
 
 ## Introduction
 
-{{< embed notebooks/explore-earthquakes.qmd#fig-spatial-plot >}}
+{{< embed notebooks/clinical_trial_first_stage.qmd#fig-bmi >}}
 
 ## Data & Methods {#sec-data-methods}
 

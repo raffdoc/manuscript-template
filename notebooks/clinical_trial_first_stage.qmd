@@ -10,6 +10,8 @@ execution:
 library(tidyverse)
 library(googlesheets4)
 library(gtsummary)
+library(ggplot2)
+library(ggstatsplot)
 ```
 
 # First stage report
@@ -26,4 +28,18 @@ first_stage_data_raw <- read_sheet("https://docs.google.com/spreadsheets/d/12EZz
 first_stage_data_raw |>
   select(trt, outcome, bmi, diabetis) |>
   tbl_summary() 
+```
+
+```{r}
+#| label: fig-bmi
+#| echo: false
+ggstatsplot::ggbetweenstats(
+  data = first_stage_data_raw,
+  x = trt,
+  y = bmi,
+  pairwise.display = "p-value",
+  p.adjust.method = "bonferroni",
+  var.equal = TRUE,
+  title = "BMI by treatment group"
+)
 ```
