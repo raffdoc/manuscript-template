@@ -19,19 +19,19 @@ author:
     affiliations:
       - Curvenote
 keywords:
-  - La Palma
-  - Earthquakes
+  - Clinical Trial
+  - Cardiac Surgery
 abstract: |
-  In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). ...
+  Clinicsl Trials are the backbone of the modern medicine. They are the only way to test securly a hypothesis and to put out an evidence based medicine. In this paper we will discuss the first and second stage of a clinical trial on how to make sternotomy without opening plerual cavities. 
 plain-language-summary: |
-  Earthquake data for the island of La Palma from the September 2021 eruption is found ...
+  There are to operatore clinical trial stages. 
 key-points:
-  - A web scraping script was developed to pull data from the Instituto Geogràphico Nacional into a machine-readable form for analysis
-  - Earthquake events on La Palma are consistent with the presence of both mantle and crustal reservoirs.
+  - Fist stage acts as a pilot study. 
+  - Second part confirmes the hypotheis.
 date: last-modified
 bibliography: references.bib
 citation:
-  container-title: Earth and Space Science
+  container-title: Cardiac Surgery Trials
 number-sections: true
 ---
 
@@ -104,11 +104,7 @@ La Palma is one of the west most islands in the Volcanic Archipelago of the Cana
 
 ## Conclusion
 
-## Tables {.unnumbered}
-
-{{< embed notebooks/clinical_trial_first_stage.qmd#tbl-demo-stage1 >}}
-
-{{< embed notebooks/clinical_trial_second_stage.qmd#tbl-demo-stage2 >}}
+## Tables
 
 ## References {.unnumbered}
 

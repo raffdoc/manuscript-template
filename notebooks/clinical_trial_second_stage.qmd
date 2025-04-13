@@ -1,5 +1,5 @@
 ---
-title: "First Stage"
+title: "Second Stage"
 execution:
   echo: false
   warning: false
@@ -22,7 +22,7 @@ first_stage_data_raw <- read_sheet("https://docs.google.com/spreadsheets/d/12EZz
 ```{r}
 #| label: tbl-demo-stage2
 #| echo: false
-#| tbl-cap: "Demographics of the first stage"
+#| tbl-cap: "Demographics of the second stage stage"
 first_stage_data_raw |>
   select(trt, outcome, bmi, diabetis) |>
   tbl_summary() 
