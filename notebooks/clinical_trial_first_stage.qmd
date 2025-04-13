@@ -1,0 +1,29 @@
+---
+title: "First Stage"
+execution:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+library(tidyverse)
+library(googlesheets4)
+library(gtsummary)
+```
+
+# First stage report
+
+```{r}
+
+first_stage_data_raw <- read_sheet("https://docs.google.com/spreadsheets/d/12EZz5S6ummuC9x5kwpWkjX7-l5bErUbtRZeJufXLK_o/edit?usp=sharing", sheet = "stage1")
+```
+
+```{r}
+#| label: tbl-demographics
+#| echo: false
+#| tbl-cap: "Demographics of the first stage"
+first_stage_data_raw |>
+  select(trt, outcome, bmi, diabetis) |>
+  tbl_summary() 
+```
