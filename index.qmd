@@ -11,13 +11,16 @@ author:
       - Software
       - Visualization
     affiliations:
-      - KGB
+      - KGB, Moscow
   - name: Giacomo Bianchi, MD, PhD
     orcid: 0000-0003-4240-0099
     corresponding: false
-    roles: []
+    roles: 
+    - Investigation
+    - Software
+    - Visualization
     affiliations:
-      - FBI
+      - FBI, Washington
 keywords:
   - Clinical Trial
   - Cardiac Surgery
@@ -62,7 +65,11 @@ All data was collected prospectively by multiple operators in a shared single fi
 
 ## Results
 
-The first stage of the clinical trial was designed to assess the feasibility and safety of the experimental approach. The results showed that the experimental group had a lower incidence of pleural cavity opening compared to the control group @fig-pl-open. The length of hospital stay was also shorter in the experimental group, indicating a potential benefit of the new approach. \## Conclusion
+There were `r perc_n(df$hospital_mortality[df$trt %in% "Control"], ref = "1")` patient with hospital mortality in the control group and and none in experimental group (`r pval_plot(t.test(df$hospital_mortality ~ df$trt)$p.value)`). The mean age of patients in the experimental group was `r m.sd(df$age[df$trt == "Experimental"])` years, while in the control group it was `r m.sd(df$age[df$trt == "Control"])` years (`r pval_plot(t.test(df$age ~ df$trt)$p.value)`). The body mass index (BMI) was also compared between the two groups, with a mean BMI of `r m.sd(df$bmi[df$trt == "Experimental"])` in the experimental group and `r m.sd(df$bmi[df$trt == "Control"])` in the control group @fig-bmi. The results showed that the experimental group had a lower incidence of pleural cavity opening compared to the control group @fig-pl-open. The length of hospital stay was also shorter in the experimental group, indicating a potential benefit of the new approach.
+
+## Conclusion
+
+The results of this study suggest that the new approach to median sternotomy with lungs down 10 second and two thorax compression may reduce the incidence of pleural cavity opening and improve postoperative outcomes. Further studies with larger cohort and wider patients' population group are needed to confirm these findings and evaluate the long-term effects of this technique.
 
 ## Figures
 
@@ -84,6 +91,7 @@ ggbarstats(
 ```{r}
 #| label: fig-bmi
 #| echo: false
+#| fig-cap: "BMI by treatment group"
 ggbetweenstats(
   data = df,
   x = trt,
@@ -105,6 +113,8 @@ theme_gtsummary_journal(set_theme = "nejm")
 
 df |>
   select(trt, outcome, bmi, diabetis, 
+         copd, steroids, hospital_mortality,
+         hospital_stay, age,
          sex) |>
   tbl_summary(
     by = trt,
