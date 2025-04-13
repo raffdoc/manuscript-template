@@ -11,13 +11,16 @@ author:
       - Software
       - Visualization
     affiliations:
-      - Pentagon
+      - KGB, Moscow
   - name: Giacomo Bianchi, MD, PhD
     orcid: 0000-0003-4240-0099
     corresponding: false
-    roles: []
+    roles: 
+    - Investigation
+    - Software
+    - Visualization
     affiliations:
-      - Curvenote
+      - FBI, Washington
 keywords:
   - Clinical Trial
   - Cardiac Surgery
@@ -35,19 +38,108 @@ citation:
 number-sections: true
 ---
 
+```{r echo=FALSE}
+library(tidyverse)
+load("data/data.RData")
+library(googlesheets4)
+library(gtsummary)
+library(dplyr)
+library(ggthemes)
+library(ggstatsplot)
+library(raffdoc)
+df <- bind_rows(first_stage_data_raw, second_stage_data_raw)
+df <- df |> mutate(trt = factor(trt, labels = c("Experimental", "Control")))
+```
+
 ## Introduction
 
-## Data & Methods {#sec-data-methods}
+The median sternotomy is a common surgical approach used in cardiac surgery. It provides access to the heart and great vessels, allowing for various procedures such as coronary artery bypass grafting (CABG), valve repair or replacement, and aortic surgery[@angelini1989]. However, one of the potential complications of median sternotomy is the opening of the pleural cavities, which can lead to postoperative complications such as pneumothorax, hemothorax, and respiratory distress.
+
+## Material & Methods {#sec-data-methods}
+
+Patients were randomly assigned to two groups: the experimental group, which underwent median sternotomy with lungs down 10 second and two thorax compression, and the control group without this maneuver. The primary outcome was the incidence of pleural cavity opening given two operators, hospital mortality. Secondary outcomes included length of hospital stay and postoperative pain from drenages. The data was collected from a single center and included demographic information, surgical details, and postoperative outcomes. The data was analyzed using statistical software to compare the outcomes between the two groups.
+
+### Statistical Inference
+
+All data was collected prospectively by multiple operators in a shared single file with version control. The all manuscript was written using Quarto Manuscript writing system with R programming incorporated. The article is published using the github pages on authors personal page. All the code and relevant data is available on [github page](https://github.com/raffdoc/manuscript-template).
+
+## Results
+
+There were `r perc_n(df$hospital_mortality[df$trt %in% "Control"], ref = "1")` patient with hospital mortality in the control group and and none in experimental group (`r pval_plot(t.test(df$hospital_mortality ~ df$trt)$p.value)`). The mean age of patients in the experimental group was `r m.sd(df$age[df$trt == "Experimental"])` years, while in the control group it was `r m.sd(df$age[df$trt == "Control"])` years (`r pval_plot(t.test(df$age ~ df$trt)$p.value)`). The body mass index (BMI) was also compared between the two groups, with a mean BMI of `r m.sd(df$bmi[df$trt == "Experimental"])` in the experimental group and `r m.sd(df$bmi[df$trt == "Control"])` in the control group @fig-bmi. The results showed that the experimental group had a lower incidence of pleural cavity opening compared to the control group @fig-pl-open. The length of hospital stay was also shorter in the experimental group, indicating a potential benefit of the new approach.
 
 ## Conclusion
 
+The results of this study suggest that the new approach to median sternotomy with lungs down 10 second and two thorax compression may reduce the incidence of pleural cavity opening and improve postoperative outcomes. Further studies with larger cohort and wider patients' population group are needed to confirm these findings and evaluate the long-term effects of this technique.
+
 ## Figures
 
-{{< embed notebooks/clinical_trial_first_stage.qmd#fig-bmi-first-stage >}}
+```{r}
+#| label: fig-pl-open
+#| echo: false
+#| fig-cap: "Pleural cavity opening"
+ggbarstats(
+  data         = df,
+  x            = trt,
+  y            = outcome,
+  package      = "wesanderson",
+  palette      = "Darjeeling2" # ,
+  # ggtheme      = ggthemes::theme_tufte(base_size = 12)
+)
 
-{{< embed notebooks/clinical_trial_second_stage.qmd#fig-bmi-second-stage >}}
+```
+
+```{r}
+#| label: fig-bmi
+#| echo: false
+#| fig-cap: "BMI by treatment group"
+ggbetweenstats(
+  data = df,
+  x = trt,
+  y = bmi,
+  pairwise.display = "p-value",
+  p.adjust.method = "bonferroni",
+  var.equal = TRUE,
+  title = "BMI by treatment group"
+)
+```
 
 ## Tables
+
+```{r}
+#| label: tbl-demo
+#| echo: false
+#| tbl-cap: "Demographics of the first stage"
+theme_gtsummary_journal(set_theme = "nejm")
+
+df |>
+  select(trt, outcome, bmi, diabetis, 
+         copd, steroids, hospital_mortality,
+         hospital_stay, age,
+         sex) |>
+  tbl_summary(
+    by = trt,
+    label = list(
+      outcome ~ "Pleural cavity opening",
+      bmi ~ "Body Mass Index",
+      diabetis ~ "Diabetis"
+    ),
+    statistic = all_continuous() ~ "{mean} ({sd})",
+    missing_text = "Missing"
+  ) |>
+  add_p() |>
+  add_overall()
+  
+```
+
+## Discussion
+
+We have conducted a clinical trial to evaluate the effectiveness of a new approach to median sternotomy in reducing the incidence of pleural cavity opening. Other studies have shown that median sternotomy can lead to complications such as pneumothorax and hemothorax, which can significantly impact postoperative outcomes[@gullu2009].
+
+The results of this study suggest that the new approach may be beneficial in improving postoperative outcomes. There are several limitations to this study, including the small sample size and the single-center design.
+
+## Acknowledgements
+
+This study was supported by institutional committee. The authors would like to thank all the patients who participated in this study and the medical staff for their support.
 
 ## References {.unnumbered}
 
