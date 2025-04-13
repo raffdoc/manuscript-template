@@ -37,6 +37,8 @@ number-sections: true
 
 ## Introduction
 
+{{< embed notebooks/explore-earthquakes.qmd#fig-spatial-plot >}}
+
 ## Data & Methods {#sec-data-methods}
 
 ## Conclusion
