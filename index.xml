@@ -47,12 +47,12 @@ administration</role>
       </contrib-group>
       <aff id="aff-1">
         <institution-wrap>
-          <institution>Pentagon</institution>
+          <institution>KGB</institution>
         </institution-wrap>
       </aff>
       <aff id="aff-2">
         <institution-wrap>
-          <institution>Curvenote</institution>
+          <institution>FBI</institution>
         </institution-wrap>
       </aff>
       <author-notes>
@@ -83,13 +83,15 @@ cavities.</p>
       <p>The median sternotomy is a common surgical approach used in cardiac
   surgery. It provides access to the heart and great vessels, allowing
   for various procedures such as coronary artery bypass grafting (CABG),
-  valve repair or replacement, and aortic surgery. However, one of the
-  potential complications of median sternotomy is the opening of the
-  pleural cavities, which can lead to postoperative complications such
-  as pneumothorax, hemothorax, and respiratory distress.</p>
+  valve repair or replacement, and aortic
+  surgery(<xref alt="Angelini and Newby 1989" rid="ref-angelini1989" ref-type="bibr">Angelini
+  and Newby 1989</xref>). However, one of the potential complications of
+  median sternotomy is the opening of the pleural cavities, which can
+  lead to postoperative complications such as pneumothorax, hemothorax,
+  and respiratory distress.</p>
     </sec>
     <sec id="sec-data-methods">
-      <title>2 Data &amp; Methods</title>
+      <title>2 Material &amp; Methods</title>
       <p>Patients were randomly assigned to two groups: the experimental
   group, which underwent median sternotomy with lungs down 10 second and
   two thorax compression, and the control group without this maneuver.
@@ -99,161 +101,165 @@ cavities.</p>
   collected from a single center and included demographic information,
   surgical details, and postoperative outcomes. The data was analyzed
   using statistical software to compare the outcomes between the two
-  groups. ## Conclusion</p>
+  groups.</p>
+      <sec id="statistical-inference">
+        <title>2.1 Statistical Inference</title>
+        <p>All data was collected prospectively by multiple operators in a
+    shared single file with version control. The all manuscript was
+    written using Quarto Manuscript writing system with R programming
+    incorporated. The article is published using the github pages on
+    authors personal page. All the code and relevant data is available
+    on
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/raffdoc/manuscript-template">github
+    page</ext-link>.</p>
+      </sec>
+    </sec>
+    <sec id="results">
+      <title>3 Results</title>
+      <p>The first stage of the clinical trial was designed to assess the
+  feasibility and safety of the experimental approach. The results
+  showed that the experimental group had a lower incidence of pleural
+  cavity opening compared to the control group
+  <xref alt="Figure 1" rid="fig-pl-open">Figure 1</xref>. The length of
+  hospital stay was also shorter in the experimental group, indicating a
+  potential benefit of the new approach. ## Conclusion</p>
     </sec>
     <sec id="figures">
-      <title>3 Figures</title>
-      <fig id="fig-bmi-first-stage">
+      <title>4 Figures</title>
+      <fig id="fig-pl-open">
         <caption>
-          <p>Figure 1</p>
+          <p>Figure 1: Pleural cavity opening</p>
         </caption>
-        <graphic id="fig-bmi-first-stage" mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/notebooks-clinical_trial_first_stage-fig-bmi-first-stage-output-1.png"/>
+        <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-pl-open-1.png"/>
       </fig>
-      <fig id="fig-bmi-second-stage">
+      <fig id="fig-bmi">
         <caption>
           <p>Figure 2</p>
         </caption>
-        <graphic id="fig-bmi-second-stage" mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/notebooks-clinical_trial_second_stage-fig-bmi-second-stage-output-1.png"/>
+        <graphic id="fig-bmi" mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-bmi-1.png"/>
       </fig>
     </sec>
     <sec id="tables">
-      <title>4 Tables</title>
-      <fig id="tbl-demo-stage1">
+      <title>5 Tables</title>
+      <fig id="tbl-demo">
         <caption>
           <p>Table 1: Demographics of the first stage</p>
         </caption>
         <table-wrap>
           <table>
             <colgroup>
-              <col width="49%"/>
-              <col width="49%"/>
+              <col width="20%"/>
+              <col width="20%"/>
+              <col width="20%"/>
+              <col width="20%"/>
+              <col width="20%"/>
             </colgroup>
             <thead>
               <tr>
-                <th align="left">
+                <th id="label" scope="col">
                   <bold>Characteristic</bold>
                 </th>
-                <th align="left">
-                  <bold>N =
-            30</bold>
+                <th id="stat_0" scope="col"><bold>Overall</bold><break/>N =
+            90<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
+                <th id="stat_1" scope="col"><bold>Experimental</bold><break/>N
+            =
+            46<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
+                <th id="stat_2" scope="col"><bold>Control</bold><break/>N =
+            44<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
+                <th id="p.value" scope="col">
+                  <bold>p-value</bold>
                   <named-content content-type="gt_footnote_marks">
-                    <sup>1</sup>
+                    <sup>2</sup>
                   </named-content>
                 </th>
               </tr>
             </thead>
+            <tfoot>
+              <tr>
+                <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
+            n (%); Mean (SD)</td>
+              </tr>
+              <tr>
+                <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>2</sup></named-content>
+            Pearson’s Chi-squared test; Wilcoxon rank sum test</td>
+              </tr>
+            </tfoot>
             <tbody>
               <tr>
-                <td align="left">trt</td>
-                <td align="left">
+                <td headers="label">Pleural cavity opening</td>
+                <td headers="stat_0">
+                  <break/>
+                </td>
+                <td headers="stat_1">
+                  <break/>
+                </td>
+                <td headers="stat_2">
+                  <break/>
+                </td>
+                <td headers="p.value">0.021</td>
+              </tr>
+              <tr>
+                <td headers="label">    close</td>
+                <td headers="stat_0">48 (53%)</td>
+                <td headers="stat_1">30 (65%)</td>
+                <td headers="stat_2">18 (41%)</td>
+                <td headers="p.value">
                   <break/>
                 </td>
               </tr>
               <tr>
-                <td align="left">    case</td>
-                <td align="left">15 (50%)</td>
-              </tr>
-              <tr>
-                <td align="left">    control</td>
-                <td align="left">15 (50%)</td>
-              </tr>
-              <tr>
-                <td align="left">outcome</td>
-                <td align="left">
+                <td headers="label">    open</td>
+                <td headers="stat_0">42 (47%)</td>
+                <td headers="stat_1">16 (35%)</td>
+                <td headers="stat_2">26 (59%)</td>
+                <td headers="p.value">
                   <break/>
                 </td>
               </tr>
               <tr>
-                <td align="left">    close</td>
-                <td align="left">17 (57%)</td>
+                <td headers="label">Body Mass Index</td>
+                <td headers="stat_0">31 (6)</td>
+                <td headers="stat_1">31 (6)</td>
+                <td headers="stat_2">31 (7)</td>
+                <td headers="p.value">0.8</td>
               </tr>
               <tr>
-                <td align="left">    open</td>
-                <td align="left">13 (43%)</td>
+                <td headers="label">Diabetis</td>
+                <td headers="stat_0">36 (40%)</td>
+                <td headers="stat_1">20 (43%)</td>
+                <td headers="stat_2">16 (36%)</td>
+                <td headers="p.value">0.5</td>
               </tr>
               <tr>
-                <td align="left">bmi</td>
-                <td align="left">32 (26, 36)</td>
+                <td headers="label">sex</td>
+                <td headers="stat_0">
+                  <break/>
+                </td>
+                <td headers="stat_1">
+                  <break/>
+                </td>
+                <td headers="stat_2">
+                  <break/>
+                </td>
+                <td headers="p.value">0.033</td>
               </tr>
               <tr>
-                <td align="left">diabetis</td>
-                <td align="left">12 (40%)</td>
-              </tr>
-              <tr>
-                <td align="left"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
-            n (%); Median (Q1, Q3)</td>
-                <td align="left"/>
-              </tr>
-            </tbody>
-          </table>
-        </table-wrap>
-      </fig>
-      <fig id="tbl-demo-stage2">
-        <caption>
-          <p>Table 2: Demographics of the second stage
-    stage</p>
-        </caption>
-        <table-wrap>
-          <table>
-            <colgroup>
-              <col width="49%"/>
-              <col width="49%"/>
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="left">
-                  <bold>Characteristic</bold>
-                </th>
-                <th align="left">
-                  <bold>N =
-            60</bold>
-                  <named-content content-type="gt_footnote_marks">
-                    <sup>1</sup>
-                  </named-content>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="left">trt</td>
-                <td align="left">
+                <td headers="label">    female</td>
+                <td headers="stat_0">33 (37%)</td>
+                <td headers="stat_1">12 (26%)</td>
+                <td headers="stat_2">21 (48%)</td>
+                <td headers="p.value">
                   <break/>
                 </td>
               </tr>
               <tr>
-                <td align="left">    case</td>
-                <td align="left">30 (50%)</td>
-              </tr>
-              <tr>
-                <td align="left">    control</td>
-                <td align="left">30 (50%)</td>
-              </tr>
-              <tr>
-                <td align="left">outcome</td>
-                <td align="left">
+                <td headers="label">    male</td>
+                <td headers="stat_0">57 (63%)</td>
+                <td headers="stat_1">34 (74%)</td>
+                <td headers="stat_2">23 (52%)</td>
+                <td headers="p.value">
                   <break/>
                 </td>
-              </tr>
-              <tr>
-                <td align="left">    close</td>
-                <td align="left">34 (57%)</td>
-              </tr>
-              <tr>
-                <td align="left">    open</td>
-                <td align="left">26 (43%)</td>
-              </tr>
-              <tr>
-                <td align="left">bmi</td>
-                <td align="left">32 (26, 36)</td>
-              </tr>
-              <tr>
-                <td align="left">diabetis</td>
-                <td align="left">24 (40%)</td>
-              </tr>
-              <tr>
-                <td align="left"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
-            n (%); Median (Q1, Q3)</td>
-                <td align="left"/>
               </tr>
             </tbody>
           </table>
@@ -261,14 +267,391 @@ cavities.</p>
       </fig>
     </sec>
     <sec id="acknowledgements">
-      <title>5 Acknowledgements</title>
-    </sec>
-    <sec id="references">
-      <title>References</title>
+      <title>6 Acknowledgements</title>
     </sec>
   </body>
   <back>
-</back>
+    <ref-list>
+      <title>References</title>
+      <ref id="ref-angelini1989">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Angelini</surname>
+              <given-names>G. D.</given-names>
+            </name>
+            <name>
+              <surname>Newby</surname>
+              <given-names>A. C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The future of saphenous vein as a coronary artery bypass conduit</article-title>
+          <source>European Heart Journal</source>
+          <year iso-8601-date="1989-03">1989</year>
+          <month>03</month>
+          <volume>10</volume>
+          <issue>3</issue>
+          <pub-id pub-id-type="doi">10.1093/oxfordjournals.eurheartj.a059476</pub-id>
+          <fpage>273</fpage>
+          <lpage>280</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <sub-article article-type="notebook" id="nb-7-nb-article">
+    <front-stub>
+      <title-group>
+        <article-title>Clinical Trial On Pleural Cavity Opening During Median
+Sternotomy</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">0000-0001-6005-472X</contrib-id>
+          <name>
+            <surname>Rafik Margaryan</surname>
+            <given-names>PhD</given-names>
+          </name>
+          <string-name>Rafik Margaryan, MD, PhD</string-name>
+          <email>margaryan@ftgm.it</email>
+          <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="https://credit.niso.org" vocab-term="project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
+administration</role>
+          <role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+          <xref ref-type="corresp" rid="cor-1-nb-article">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">0000-0003-4240-0099</contrib-id>
+          <name>
+            <surname>Giacomo Bianchi</surname>
+            <given-names>PhD</given-names>
+          </name>
+          <string-name>Giacomo Bianchi, MD, PhD</string-name>
+          <xref ref-type="aff" rid="aff-2-nb-article">b</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1-nb-article">
+        <institution-wrap>
+          <institution>KGB</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-2-nb-article">
+        <institution-wrap>
+          <institution>FBI</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1-nb-article">margaryan@ftgm.it</corresp>
+      </author-notes>
+      <abstract>
+        <p>Clinicsl Trials are the backbone of the modern medicine. They are the
+only way to test securly a hypothesis and to put out an evidence based
+medicine. In this paper we will discuss the first and second stage of a
+clinical trial on how to make sternotomy without opening plerual
+cavities.</p>
+      </abstract>
+    </front-stub>
+    <body>
+      <sec specific-use="notebook-content">
+        <code language="r script">library(tidyverse)</code>
+        <boxed-text>
+          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
+        </boxed-text>
+        <code language="r script">load("data/data.RData")
+library(googlesheets4)
+library(gtsummary)
+library(dplyr)
+library(ggthemes)
+library(ggstatsplot)</code>
+        <boxed-text>
+          <preformat>You can cite this package as:
+     Patil, I. (2021). Visualizations with statistical details: The 'ggstatsplot' approach.
+     Journal of Open Source Software, 6(61), 3167, doi:10.21105/joss.03167</preformat>
+        </boxed-text>
+        <code language="r script">library(raffdoc)
+df &lt;- bind_rows(first_stage_data_raw, second_stage_data_raw)
+df &lt;- df |&gt; mutate(trt = factor(trt, labels = c("Experimental", "Control")))</code>
+      </sec>
+      <sec id="introduction-nb-article">
+        <title>1 Introduction</title>
+        <p>The median sternotomy is a common surgical approach used in cardiac
+  surgery. It provides access to the heart and great vessels, allowing
+  for various procedures such as coronary artery bypass grafting (CABG),
+  valve repair or replacement, and aortic
+  surgery(<xref alt="Angelini and Newby 1989" rid="ref-angelini1989-nb-article" ref-type="bibr">Angelini
+  and Newby 1989</xref>). However, one of the potential complications of
+  median sternotomy is the opening of the pleural cavities, which can
+  lead to postoperative complications such as pneumothorax, hemothorax,
+  and respiratory distress.</p>
+      </sec>
+      <sec id="sec-data-methods-nb-article">
+        <title>2 Material &amp; Methods</title>
+        <p>Patients were randomly assigned to two groups: the experimental
+  group, which underwent median sternotomy with lungs down 10 second and
+  two thorax compression, and the control group without this maneuver.
+  The primary outcome was the incidence of pleural cavity opening given
+  two operators, hospital mortality. Secondary outcomes included length
+  of hospital stay and postoperative pain from drenages. The data was
+  collected from a single center and included demographic information,
+  surgical details, and postoperative outcomes. The data was analyzed
+  using statistical software to compare the outcomes between the two
+  groups.</p>
+        <sec id="statistical-inference-nb-article">
+          <title>2.1 Statistical Inference</title>
+          <p>All data was collected prospectively by multiple operators in a
+    shared single file with version control. The all manuscript was
+    written using Quarto Manuscript writing system with R programming
+    incorporated. The article is published using the github pages on
+    authors personal page. All the code and relevant data is available
+    on
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/raffdoc/manuscript-template">github
+    page</ext-link>.</p>
+        </sec>
+      </sec>
+      <sec id="results-nb-article">
+        <title>3 Results</title>
+        <p>The first stage of the clinical trial was designed to assess the
+  feasibility and safety of the experimental approach. The results
+  showed that the experimental group had a lower incidence of pleural
+  cavity opening compared to the control group
+  <xref alt="Figure 1" rid="fig-pl-open-nb-article">Figure 1</xref>. The length of
+  hospital stay was also shorter in the experimental group, indicating a
+  potential benefit of the new approach. ## Conclusion</p>
+      </sec>
+      <sec id="figures-nb-article">
+        <title>4 Figures</title>
+        <sec id="cell-fig-pl-open-nb-article" specific-use="notebook-content">
+          <code language="r script">ggbarstats(
+  data         = df,
+  x            = trt,
+  y            = outcome,
+  package      = "wesanderson",
+  palette      = "Darjeeling2" # ,
+  # ggtheme      = ggthemes::theme_tufte(base_size = 12)
+)</code>
+          <fig id="fig-pl-open-nb-article">
+            <caption>
+              <p>Figure 1: Pleural cavity opening</p>
+            </caption>
+            <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-pl-open-1.png"/>
+          </fig>
+        </sec>
+        <sec id="cell-fig-bmi-nb-article" specific-use="notebook-content">
+          <code language="r script">ggbetweenstats(
+  data = df,
+  x = trt,
+  y = bmi,
+  pairwise.display = "p-value",
+  p.adjust.method = "bonferroni",
+  var.equal = TRUE,
+  title = "BMI by treatment group"
+)</code>
+          <fig id="fig-bmi-nb-article">
+            <caption>
+              <p>Figure 2</p>
+            </caption>
+            <graphic id="fig-bmi-nb-article" mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-bmi-1.png"/>
+          </fig>
+        </sec>
+      </sec>
+      <sec id="tables-nb-article">
+        <title>5 Tables</title>
+        <sec specific-use="notebook-content">
+          <code language="r script">theme_gtsummary_journal(set_theme = "nejm")
+
+df |&gt;
+  select(trt, outcome, bmi, diabetis, 
+         sex) |&gt;
+  tbl_summary(
+    by = trt,
+    label = list(
+      outcome ~ "Pleural cavity opening",
+      bmi ~ "Body Mass Index",
+      diabetis ~ "Diabetis"
+    ),
+    statistic = all_continuous() ~ "{mean} ({sd})",
+    missing_text = "Missing"
+  ) |&gt;
+  add_p() |&gt;
+  add_overall()</code>
+          <boxed-text>
+            <preformat>The following warnings were returned during `add_p()`:
+! For variable `bmi` (`trt`) and "estimate", "statistic", "p.value",
+  "conf.low", and "conf.high" statistics: cannot compute exact p-value with
+  ties
+! For variable `bmi` (`trt`) and "estimate", "statistic", "p.value",
+  "conf.low", and "conf.high" statistics: cannot compute exact confidence
+  intervals with ties</preformat>
+          </boxed-text>
+          <fig id="tbl-demo-nb-article">
+            <caption>
+              <p>Table 1: Demographics of the first stage</p>
+            </caption>
+            <table-wrap>
+              <table>
+                <colgroup>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th id="label-nb-article" scope="col">
+                      <bold>Characteristic</bold>
+                    </th>
+                    <th id="stat_0-nb-article" scope="col"><bold>Overall</bold><break/>N =
+            90<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
+                    <th id="stat_1-nb-article" scope="col"><bold>Experimental</bold><break/>N
+            =
+            46<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
+                    <th id="stat_2-nb-article" scope="col"><bold>Control</bold><break/>N =
+            44<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
+                    <th id="p.value-nb-article" scope="col">
+                      <bold>p-value</bold>
+                      <named-content content-type="gt_footnote_marks">
+                        <sup>2</sup>
+                      </named-content>
+                    </th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
+            n (%); Mean (SD)</td>
+                  </tr>
+                  <tr>
+                    <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>2</sup></named-content>
+            Pearson’s Chi-squared test; Wilcoxon rank sum test</td>
+                  </tr>
+                </tfoot>
+                <tbody>
+                  <tr>
+                    <td headers="label">Pleural cavity opening</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                    <td headers="stat_1">
+                      <break/>
+                    </td>
+                    <td headers="stat_2">
+                      <break/>
+                    </td>
+                    <td headers="p.value">0.021</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    close</td>
+                    <td headers="stat_0">48 (53%)</td>
+                    <td headers="stat_1">30 (65%)</td>
+                    <td headers="stat_2">18 (41%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    open</td>
+                    <td headers="stat_0">42 (47%)</td>
+                    <td headers="stat_1">16 (35%)</td>
+                    <td headers="stat_2">26 (59%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">Body Mass Index</td>
+                    <td headers="stat_0">31 (6)</td>
+                    <td headers="stat_1">31 (6)</td>
+                    <td headers="stat_2">31 (7)</td>
+                    <td headers="p.value">0.8</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">Diabetis</td>
+                    <td headers="stat_0">36 (40%)</td>
+                    <td headers="stat_1">20 (43%)</td>
+                    <td headers="stat_2">16 (36%)</td>
+                    <td headers="p.value">0.5</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">sex</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                    <td headers="stat_1">
+                      <break/>
+                    </td>
+                    <td headers="stat_2">
+                      <break/>
+                    </td>
+                    <td headers="p.value">0.033</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    female</td>
+                    <td headers="stat_0">33 (37%)</td>
+                    <td headers="stat_1">12 (26%)</td>
+                    <td headers="stat_2">21 (48%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    male</td>
+                    <td headers="stat_0">57 (63%)</td>
+                    <td headers="stat_1">34 (74%)</td>
+                    <td headers="stat_2">23 (52%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </fig>
+        </sec>
+      </sec>
+      <sec id="acknowledgements-nb-article">
+        <title>6 Acknowledgements</title>
+      </sec>
+    </body>
+    <back>
+      <ref-list>
+        <title>References</title>
+        <ref id="ref-angelini1989-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Angelini</surname>
+                <given-names>G. D.</given-names>
+              </name>
+              <name>
+                <surname>Newby</surname>
+                <given-names>A. C.</given-names>
+              </name>
+            </person-group>
+            <article-title>The future of saphenous vein as a coronary artery bypass conduit</article-title>
+            <source>European Heart Journal</source>
+            <year iso-8601-date="1989-03">1989</year>
+            <month>03</month>
+            <volume>10</volume>
+            <issue>3</issue>
+            <pub-id pub-id-type="doi">10.1093/oxfordjournals.eurheartj.a059476</pub-id>
+            <fpage>273</fpage>
+            <lpage>280</lpage>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </sub-article>
   <sub-article article-type="notebook" id="nb-2-nb-1">
     <front-stub>
       <title-group>

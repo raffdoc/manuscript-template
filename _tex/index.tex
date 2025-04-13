@@ -93,6 +93,39 @@
 \makeatother
 
 
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 
 
@@ -106,6 +139,13 @@
  
 
 
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{anyfontsize}
+\usepackage{multirow}
 \KOMAoption{captions}{tableheading}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -178,17 +218,22 @@ cavities.
 \end{abstract}
 
 
+\textsubscript{Source:
+\href{https://raffdoc.github.io/manuscript-template/index-preview.html}{Article
+Notebook}}
+
 \section{Introduction}\label{introduction}
 
 The median sternotomy is a common surgical approach used in cardiac
 surgery. It provides access to the heart and great vessels, allowing for
 various procedures such as coronary artery bypass grafting (CABG), valve
-repair or replacement, and aortic surgery. However, one of the potential
-complications of median sternotomy is the opening of the pleural
-cavities, which can lead to postoperative complications such as
-pneumothorax, hemothorax, and respiratory distress.
+repair or replacement, and aortic surgery(Angelini and Newby 1989).
+However, one of the potential complications of median sternotomy is the
+opening of the pleural cavities, which can lead to postoperative
+complications such as pneumothorax, hemothorax, and respiratory
+distress.
 
-\section{Data \& Methods}\label{sec-data-methods}
+\section{Material \& Methods}\label{sec-data-methods}
 
 Patients were randomly assigned to two groups: the experimental group,
 which underwent median sternotomy with lungs down 10 second and two
@@ -199,123 +244,97 @@ hospital stay and postoperative pain from drenages. The data was
 collected from a single center and included demographic information,
 surgical details, and postoperative outcomes. The data was analyzed
 using statistical software to compare the outcomes between the two
-groups. \#\# Conclusion
+groups.
+
+\subsection{Statistical Inference}\label{statistical-inference}
+
+All data was collected prospectively by multiple operators in a shared
+single file with version control. The all manuscript was written using
+Quarto Manuscript writing system with R programming incorporated. The
+article is published using the github pages on authors personal page.
+All the code and relevant data is available on
+\href{https://github.com/raffdoc/manuscript-template}{github page}.
+
+\section{Results}\label{results}
+
+The first stage of the clinical trial was designed to assess the
+feasibility and safety of the experimental approach. The results showed
+that the experimental group had a lower incidence of pleural cavity
+opening compared to the control group Figure~\ref{fig-pl-open}. The
+length of hospital stay was also shorter in the experimental group,
+indicating a potential benefit of the new approach. \#\# Conclusion
 
 \section{Figures}\label{figures}
 
+\phantomsection\label{cell-fig-pl-open}
 \begin{figure}[H]
 
 \centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-latex/notebooks-clinical_trial_first_stage-fig-bmi-first-stage-output-1.png}}
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-pdf/fig-pl-open-1.pdf}}
 
 }
 
-\caption{\label{fig-bmi-first-stage}}
+\caption{\label{fig-pl-open}Pleural cavity opening}
 
 \end{figure}%
 
 \textsubscript{Source:
-\href{https://raffdoc.github.io/manuscript-template/notebooks/clinical_trial_first_stage-preview.html\#cell-fig-bmi-first-stage}{First
-Stage}}
+\href{https://raffdoc.github.io/manuscript-template/index-preview.html}{Article
+Notebook}}
 
+\phantomsection\label{cell-fig-bmi}
 \begin{figure}[H]
 
 \centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-latex/notebooks-clinical_trial_second_stage-fig-bmi-second-stage-output-1.png}}
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-pdf/fig-bmi-1.pdf}}
 
 }
 
-\caption{\label{fig-bmi-second-stage}}
+\caption{\label{fig-bmi}}
 
 \end{figure}%
 
 \textsubscript{Source:
-\href{https://raffdoc.github.io/manuscript-template/notebooks/clinical_trial_second_stage-preview.html\#cell-fig-bmi-second-stage}{Second
-Stage}}
+\href{https://raffdoc.github.io/manuscript-template/index-preview.html}{Article
+Notebook}}
 
 \section{Tables}\label{tables}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4940}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4940}}@{}}
+\begin{table}
 
-\caption{\label{tbl-demo-stage1}Demographics of the first stage}
+\caption{\label{tbl-demo}Demographics of the first stage}
 
-\tabularnewline
+\centering{
 
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-{\textbf{Characteristic}}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-{\textbf{N = 30}}{\textsuperscript{1}}
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-trt & \begin{minipage}[t]{\linewidth}\raggedright
-\hfill\break
-\strut
-\end{minipage} \\
-~~~~case & 15 (50\%) \\
-~~~~control & 15 (50\%) \\
-outcome & \begin{minipage}[t]{\linewidth}\raggedright
-\hfill\break
-\strut
-\end{minipage} \\
-~~~~close & 17 (57\%) \\
-~~~~open & 13 (43\%) \\
-bmi & 32 (26, 36) \\
-diabetis & 12 (40\%) \\
-{\textsuperscript{1}} {n (\%); Median (Q1, Q3)} & \\
+\fontsize{12.0pt}{14.4pt}\selectfont
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcccc}
+\toprule
+\textbf{Characteristic} & \textbf{Overall}  N = 90\textsuperscript{\textit{1}} & \textbf{Experimental}  N = 46\textsuperscript{\textit{1}} & \textbf{Control}  N = 44\textsuperscript{\textit{1}} & \textbf{p-value}\textsuperscript{\textit{2}} \\ 
+\midrule\addlinespace[2.5pt]
+Pleural cavity opening &  &  &  & 0.021 \\ 
+    close & 48 (53\%) & 30 (65\%) & 18 (41\%) &  \\ 
+    open & 42 (47\%) & 16 (35\%) & 26 (59\%) &  \\ 
+Body Mass Index & 31 (6) & 31 (6) & 31 (7) & 0.8 \\ 
+Diabetis & 36 (40\%) & 20 (43\%) & 16 (36\%) & 0.5 \\ 
+sex &  &  &  & 0.033 \\ 
+    female & 33 (37\%) & 12 (26\%) & 21 (48\%) &  \\ 
+    male & 57 (63\%) & 34 (74\%) & 23 (52\%) &  \\ 
+\bottomrule
+\end{tabular*}
+\begin{minipage}{\linewidth}
+\textsuperscript{\textit{1}}n (\%); Mean (SD)\\
+\textsuperscript{\textit{2}}Pearson's Chi-squared test; Wilcoxon rank sum test\\
+\end{minipage}
 
-\end{longtable}
+}
+
+\end{table}%
 
 \textsubscript{Source:
-\href{https://raffdoc.github.io/manuscript-template/notebooks/clinical_trial_first_stage-preview.html\#cell-tbl-demo-stage1}{First
-Stage}}
-
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4940}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4940}}@{}}
-
-\caption{\label{tbl-demo-stage2}Demographics of the second stage stage}
-
-\tabularnewline
-
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-{\textbf{Characteristic}}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-{\textbf{N = 60}}{\textsuperscript{1}}
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-trt & \begin{minipage}[t]{\linewidth}\raggedright
-\hfill\break
-\strut
-\end{minipage} \\
-~~~~case & 30 (50\%) \\
-~~~~control & 30 (50\%) \\
-outcome & \begin{minipage}[t]{\linewidth}\raggedright
-\hfill\break
-\strut
-\end{minipage} \\
-~~~~close & 34 (57\%) \\
-~~~~open & 26 (43\%) \\
-bmi & 32 (26, 36) \\
-diabetis & 24 (40\%) \\
-{\textsuperscript{1}} {n (\%); Median (Q1, Q3)} & \\
-
-\end{longtable}
-
-\textsubscript{Source:
-\href{https://raffdoc.github.io/manuscript-template/notebooks/clinical_trial_second_stage-preview.html\#cell-tbl-demo-stage2}{Second
-Stage}}
+\href{https://raffdoc.github.io/manuscript-template/index-preview.html}{Article
+Notebook}}
 
 \section{Acknowledgements}\label{acknowledgements}
 
@@ -323,6 +342,14 @@ Stage}}
 \addcontentsline{toc}{section}{References}
 
 \phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-angelini1989}
+Angelini, G. D., and A. C. Newby. 1989. {``The future of saphenous vein
+as a coronary artery bypass conduit.''} \emph{European Heart Journal} 10
+(3): 273--80.
+\url{https://doi.org/10.1093/oxfordjournals.eurheartj.a059476}.
+
+\end{CSLReferences}
 
 
 

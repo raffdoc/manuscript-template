@@ -1,5 +1,5 @@
 ---
-title: La Palma Earthquakes
+title: Clinical Trial On Pleural Cavity Opening During Median Sternotomy
 author:
   - name: Rafik Margaryan, MD, PhD
     orcid: 0000-0001-6005-472X
@@ -11,13 +11,13 @@ author:
       - Software
       - Visualization
     affiliations:
-      - Pentagon
+      - KGB
   - name: Giacomo Bianchi, MD, PhD
     orcid: 0000-0003-4240-0099
     corresponding: false
     roles: []
     affiliations:
-      - Curvenote
+      - FBI
 keywords:
   - Clinical Trial
   - Cardiac Surgery
@@ -35,76 +35,93 @@ citation:
 number-sections: true
 ---
 
+```{r echo=FALSE}
+library(tidyverse)
+load("data/data.RData")
+library(googlesheets4)
+library(gtsummary)
+library(dplyr)
+library(ggthemes)
+library(ggstatsplot)
+library(raffdoc)
+df <- bind_rows(first_stage_data_raw, second_stage_data_raw)
+df <- df |> mutate(trt = factor(trt, labels = c("Experimental", "Control")))
+```
+
 ## Introduction
 
+The median sternotomy is a common surgical approach used in cardiac surgery. It provides access to the heart and great vessels, allowing for various procedures such as coronary artery bypass grafting (CABG), valve repair or replacement, and aortic surgery[@angelini1989]. However, one of the potential complications of median sternotomy is the opening of the pleural cavities, which can lead to postoperative complications such as pneumothorax, hemothorax, and respiratory distress.
+
+## Material & Methods {#sec-data-methods}
+
+Patients were randomly assigned to two groups: the experimental group, which underwent median sternotomy with lungs down 10 second and two thorax compression, and the control group without this maneuver. The primary outcome was the incidence of pleural cavity opening given two operators, hospital mortality. Secondary outcomes included length of hospital stay and postoperative pain from drenages. The data was collected from a single center and included demographic information, surgical details, and postoperative outcomes. The data was analyzed using statistical software to compare the outcomes between the two groups.
+
+### Statistical Inference
+
+All data was collected prospectively by multiple operators in a shared single file with version control. The all manuscript was written using Quarto Manuscript writing system with R programming incorporated. The article is published using the github pages on authors personal page. All the code and relevant data is available on [github page](https://github.com/raffdoc/manuscript-template).
+
+## Results
+
+The first stage of the clinical trial was designed to assess the feasibility and safety of the experimental approach. The results showed that the experimental group had a lower incidence of pleural cavity opening compared to the control group @fig-pl-open. The length of hospital stay was also shorter in the experimental group, indicating a potential benefit of the new approach. \## Conclusion
+
+## Figures
+
 ```{r}
-eruptions <- c(1492, 1585, 1646, 1677, 1712, 1949, 1971, 2021)
-n_eruptions <- length(eruptions)
+#| label: fig-pl-open
+#| echo: false
+#| fig-cap: "Pleural cavity opening"
+ggbarstats(
+  data         = df,
+  x            = trt,
+  y            = outcome,
+  package      = "wesanderson",
+  palette      = "Darjeeling2" # ,
+  # ggtheme      = ggthemes::theme_tufte(base_size = 12)
+)
+
 ```
 
 ```{r}
-#| label: fig-timeline
-#| fig-cap: Timeline of recent earthquakes on La Palma
-#| fig-alt: An event plot of the years of the last 8 eruptions on La Palma.
-#| fig-height: 1.5
-#| fig-width: 6
-par(mar = c(3, 1, 1, 1) + 0.1)
-plot(eruptions, rep(0, n_eruptions), 
-  pch = "|", axes = FALSE)
-axis(1)
-box()
+#| label: fig-bmi
+#| echo: false
+ggbetweenstats(
+  data = df,
+  x = trt,
+  y = bmi,
+  pairwise.display = "p-value",
+  p.adjust.method = "bonferroni",
+  var.equal = TRUE,
+  title = "BMI by treatment group"
+)
 ```
-
-```{r}
-#| output: false
-avg_years_between_eruptions <- mean(diff(eruptions[-n_eruptions]))
-avg_years_between_eruptions
-```
-
-Based on data up to and including 1971, eruptions on La Palma happen every `r round(avg_years_between_eruptions, 1)` years on average.
-
-Studies of the magma systems feeding the volcano, such as @marrero2019, have proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges and in turn feeds a shallower crustal reservoir (10-20km depth).
-
-Eight eruptions have been recorded since the late 1400s (@fig-timeline).
-
-Data and methods are discussed in @sec-data-methods.
-
-Let $x$ denote the number of eruptions in a year. Then, $x$ can be modeled by a Poisson distribution
-
-$$
-p(x) = \frac{e^{-\lambda} \lambda^{x}}{x !}
-$$ {#eq-poisson}
-
-where $\lambda$ is the rate of eruptions per year. Using @eq-poisson, the probability of an eruption in the next $t$ years can be calculated.
-
-| Name                | Year |
-|---------------------|------|
-| Current             | 2021 |
-| Teneguía            | 1971 |
-| Nambroque           | 1949 |
-| El Charco           | 1712 |
-| Volcán San Antonio  | 1677 |
-| Volcán San Martin   | 1646 |
-| Tajuya near El Paso | 1585 |
-| Montaña Quemada     | 1492 |
-
-: Recent historic eruptions on La Palma {#tbl-history}
-
-@tbl-history summarises the eruptions recorded since the colonization of the islands by Europeans in the late 1400s.
-
-![Map of La Palma](images/la-palma-map.png){#fig-map}
-
-La Palma is one of the west most islands in the Volcanic Archipelago of the Canary Islands (@fig-map).
-
-{{< embed notebooks/explore-earthquakes.qmd#fig-spatial-plot >}}
-
-@fig-spatial-plot shows the location of recent Earthquakes on La Palma.
-
-## Data & Methods {#sec-data-methods}
-
-## Conclusion
 
 ## Tables
+
+```{r}
+#| label: tbl-demo
+#| echo: false
+#| tbl-cap: "Demographics of the first stage"
+theme_gtsummary_journal(set_theme = "nejm")
+
+df |>
+  select(trt, outcome, bmi, diabetis, 
+         sex) |>
+  tbl_summary(
+    by = trt,
+    label = list(
+      outcome ~ "Pleural cavity opening",
+      bmi ~ "Body Mass Index",
+      diabetis ~ "Diabetis"
+    ),
+    statistic = all_continuous() ~ "{mean} ({sd})",
+    missing_text = "Missing"
+  ) |>
+  add_p() |>
+  add_overall()
+  
+```
+
+## Acknowledgements
 
 ## References {.unnumbered}
 
