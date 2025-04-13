@@ -1,0 +1,43 @@
+---
+title: "Second Stage"
+execution:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+library(tidyverse)
+library(googlesheets4)
+library(gtsummary)
+```
+
+# First stage report
+
+```{r}
+
+load("../data/data.RData")
+```
+
+```{r}
+#| label: tbl-demo-stage2
+#| echo: false
+#| tbl-cap: "Demographics of the second stage stage"
+second_stage_data_raw |>
+  select(trt, outcome, bmi, diabetis) |>
+  tbl_summary() 
+```
+
+```{r}
+#| label: fig-bmi-second-stage
+#| echo: false
+ggstatsplot::ggbetweenstats(
+  data = second_stage_data_raw,
+  x = trt,
+  y = bmi,
+  pairwise.display = "p-value",
+  p.adjust.method = "bonferroni",
+  var.equal = TRUE,
+  title = "BMI by treatment group"
+)
+```

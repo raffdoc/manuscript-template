@@ -1,531 +1,401 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
 and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
-
 <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
-
-<front>
-<journal-meta>
-<journal-id></journal-id>
-
-<journal-title-group>
-<journal-title>Earth and Space Science</journal-title>
-</journal-title-group>
-<issn></issn>
-
-<publisher>
-<publisher-name></publisher-name>
-</publisher>
-</journal-meta>
-
-
-<article-meta>
-
-
-<title-group>
-<article-title>La Palma Earthquakes</article-title>
-</title-group>
-
-<contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">0000-0001-6005-472X</contrib-id>
-<name>
-<surname>Rafik Margaryan</surname>
-<given-names>PhD</given-names>
-</name>
-<string-name>Rafik Margaryan, MD, PhD</string-name>
-
-<email>margaryan@ftgm.it</email>
-<role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
-<role vocab="https://credit.niso.org" vocab-term="project
-administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
+  <front>
+    <journal-meta>
+      <journal-id/>
+      <journal-title-group>
+        <journal-title>Cardiac Surgery Trials</journal-title>
+      </journal-title-group>
+      <issn/>
+      <publisher>
+        <publisher-name/>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>La Palma Earthquakes</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">0000-0001-6005-472X</contrib-id>
+          <name>
+            <surname>Rafik Margaryan</surname>
+            <given-names>PhD</given-names>
+          </name>
+          <string-name>Rafik Margaryan, MD, PhD</string-name>
+          <email>margaryan@ftgm.it</email>
+          <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="https://credit.niso.org" vocab-term="project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
 administration</role>
-<role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
-<role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
-<xref ref-type="aff" rid="aff-1">a</xref>
-<xref ref-type="corresp" rid="cor-1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">0000-0003-4240-0099</contrib-id>
-<name>
-<surname>Giacomo Bianchi</surname>
-<given-names>PhD</given-names>
-</name>
-<string-name>Giacomo Bianchi, MD, PhD</string-name>
-
-<xref ref-type="aff" rid="aff-2">b</xref>
-</contrib>
-</contrib-group>
-<aff id="aff-1">
-<institution-wrap>
-<institution>Pentagon</institution>
-</institution-wrap>
-
-
-
-
-
-
-
-</aff>
-<aff id="aff-2">
-<institution-wrap>
-<institution>Curvenote</institution>
-</institution-wrap>
-
-
-
-
-
-
-
-</aff>
-<author-notes>
-<corresp id="cor-1">margaryan@ftgm.it</corresp>
-</author-notes>
-
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-04-07">
-<year>2025</year>
-<month>4</month>
-<day>7</day>
-</pub-date>
-
-
-
-
-
-
-
-<history></history>
-
-
-<abstract>
-<p>In September 2021, a significant jump in seismic activity on the
-island of La Palma (Canary Islands, Spain) signaled the start of a
-volcanic crisis that still continues at the time of writing. Earthquake
-data is continually collected and published by the Instituto Geográphico
-Nacional (IGN). …</p>
-</abstract>
-<kwd-group kwd-group-type="author">
-<kwd>La Palma</kwd>
-<kwd>Earthquakes</kwd>
-</kwd-group>
-
-
-
-
-</article-meta>
-
-</front>
-
-<body>
-<sec id="introduction">
-  <title>1 Introduction</title>
-  <fig id="fig-timeline">
-    <caption><p>Figure 1: Timeline of recent earthquakes on La
-    Palma</p></caption>
-    <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-timeline-1.png" />
-  </fig>
-  <p>Based on data up to and including 1971, eruptions on La Palma
-  happen every 79.8 years on average.</p>
-  <p>Studies of the magma systems feeding the volcano, such as Marrero
-  et al.
-  (<xref alt="2019" rid="ref-marrero2019" ref-type="bibr">2019</xref>),
-  have proposed that there are two main magma reservoirs feeding the
-  Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges
-  and in turn feeds a shallower crustal reservoir (10-20km depth).</p>
-  <p>Eight eruptions have been recorded since the late 1400s
-  (<xref alt="Figure 1" rid="fig-timeline">Figure 1</xref>).</p>
-  <p>Data and methods are discussed in
-  <xref alt="Section 2" rid="sec-data-methods">Section 2</xref>.</p>
-  <p>Let <inline-formula><alternatives>
-  <tex-math><![CDATA[x]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>x</mml:mi></mml:math></alternatives></inline-formula>
-  denote the number of eruptions in a year. Then,
-  <inline-formula><alternatives>
-  <tex-math><![CDATA[x]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>x</mml:mi></mml:math></alternatives></inline-formula>
-  can be modeled by a Poisson distribution</p>
-  <p><styled-content id="eq-poisson"><disp-formula><alternatives>
-  <tex-math><![CDATA[
-  p(x) = \frac{e^{-\lambda} \lambda^{x}}{x !}
-   \qquad(1)]]></tex-math>
-  <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mi>−</mml:mi><mml:mi>λ</mml:mi></mml:mrow></mml:msup><mml:msup><mml:mi>λ</mml:mi><mml:mi>x</mml:mi></mml:msup></mml:mrow><mml:mrow><mml:mi>x</mml:mi><mml:mi>!</mml:mi></mml:mrow></mml:mfrac><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
-  <p>where <inline-formula><alternatives>
-  <tex-math><![CDATA[\lambda]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>λ</mml:mi></mml:math></alternatives></inline-formula>
-  is the rate of eruptions per year. Using
-  <xref alt="Equation 1" rid="eq-poisson">Equation 1</xref>, the
-  probability of an eruption in the next <inline-formula><alternatives>
-  <tex-math><![CDATA[t]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>t</mml:mi></mml:math></alternatives></inline-formula>
-  years can be calculated.</p>
-  <fig id="tbl-history">
-    <caption><p>Table 1: Recent historic eruptions on La
-    Palma</p></caption>
-    <table-wrap>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Current</td>
-            <td>2021</td>
-          </tr>
-          <tr>
-            <td>Teneguía</td>
-            <td>1971</td>
-          </tr>
-          <tr>
-            <td>Nambroque</td>
-            <td>1949</td>
-          </tr>
-          <tr>
-            <td>El Charco</td>
-            <td>1712</td>
-          </tr>
-          <tr>
-            <td>Volcán San Antonio</td>
-            <td>1677</td>
-          </tr>
-          <tr>
-            <td>Volcán San Martin</td>
-            <td>1646</td>
-          </tr>
-          <tr>
-            <td>Tajuya near El Paso</td>
-            <td>1585</td>
-          </tr>
-          <tr>
-            <td>Montaña Quemada</td>
-            <td>1492</td>
-          </tr>
-        </tbody>
-      </table>
-    </table-wrap>
-  </fig>
-  <p><xref alt="Table 1" rid="tbl-history">Table 1</xref> summarises the
-  eruptions recorded since the colonization of the islands by Europeans
-  in the late 1400s.</p>
-  <fig id="fig-map">
-    <caption><p>Figure 2: Map of La Palma</p></caption>
-    <graphic mimetype="image" mime-subtype="png" xlink:href="images/la-palma-map.png" />
-  </fig>
-  <p>La Palma is one of the west most islands in the Volcanic
-  Archipelago of the Canary Islands
-  (<xref alt="Figure 2" rid="fig-map">Figure 2</xref>).</p>
-  <fig id="fig-spatial-plot">
-    <caption><p>Figure 3: Locations of earthquakes on La Palma since
-    2017</p></caption>
-    <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/notebooks-explore-earthquakes-fig-spatial-plot-output-1.png" />
-  </fig>
-  <p><xref alt="Figure 3" rid="fig-spatial-plot">Figure 3</xref> shows
-  the location of recent Earthquakes on La Palma.</p>
-</sec>
-<sec id="sec-data-methods">
-  <title>2 Data &amp; Methods</title>
-</sec>
-<sec id="conclusion">
-  <title>3 Conclusion</title>
-</sec>
-</body>
-
-<back>
-<ref-list>
-  <title>References</title>
-  <ref id="ref-marrero2019">
-    <element-citation publication-type="article-journal">
-      <person-group person-group-type="author">
-        <name><surname>Marrero</surname><given-names>José</given-names></name>
-        <name><surname>García</surname><given-names>Alicia</given-names></name>
-        <name><surname>Berrocoso</surname><given-names>Manuel</given-names></name>
-        <name><surname>Llinares</surname><given-names>Ángeles</given-names></name>
-        <name><surname>Rodríguez-Losada</surname><given-names>Antonio</given-names></name>
-        <name><surname>Ortiz</surname><given-names>R.</given-names></name>
-      </person-group>
-      <article-title>Strategies for the development of volcanic hazard maps in monogenetic volcanic fields: The example of La Palma (Canary Islands)</article-title>
-      <source>Journal of Applied Volcanology</source>
-      <year iso-8601-date="2019-07">2019</year><month>07</month>
-      <volume>8</volume>
-      <pub-id pub-id-type="doi">10.1186/s13617-019-0085-5</pub-id>
-      <fpage></fpage>
-      <lpage></lpage>
-    </element-citation>
-  </ref>
-</ref-list>
+          <role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+          <xref ref-type="corresp" rid="cor-1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">0000-0003-4240-0099</contrib-id>
+          <name>
+            <surname>Giacomo Bianchi</surname>
+            <given-names>PhD</given-names>
+          </name>
+          <string-name>Giacomo Bianchi, MD, PhD</string-name>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution-wrap>
+          <institution>Pentagon</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-2">
+        <institution-wrap>
+          <institution>Curvenote</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1">margaryan@ftgm.it</corresp>
+      </author-notes>
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-04-13">
+        <year>2025</year>
+        <month>4</month>
+        <day>13</day>
+      </pub-date>
+      <history/>
+      <abstract>
+        <p>Clinicsl Trials are the backbone of the modern medicine. They are the
+only way to test securly a hypothesis and to put out an evidence based
+medicine. In this paper we will discuss the first and second stage of a
+clinical trial on how to make sternotomy without opening plerual
+cavities.</p>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <kwd>Clinical Trial</kwd>
+        <kwd>Cardiac Surgery</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="introduction">
+      <title>1 Introduction</title>
+    </sec>
+    <sec id="sec-data-methods">
+      <title>2 Data &amp; Methods</title>
+    </sec>
+    <sec id="conclusion">
+      <title>3 Conclusion</title>
+    </sec>
+    <sec id="figures">
+      <title>4 Figures</title>
+      <fig id="fig-bmi-first-stage">
+        <caption>
+          <p>Figure 1</p>
+        </caption>
+        <graphic id="fig-bmi-first-stage" mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/notebooks-clinical_trial_first_stage-fig-bmi-first-stage-output-1.png"/>
+      </fig>
+      <fig id="fig-bmi-second-stage">
+        <caption>
+          <p>Figure 2</p>
+        </caption>
+        <graphic id="fig-bmi-second-stage" mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/notebooks-clinical_trial_second_stage-fig-bmi-second-stage-output-1.png"/>
+      </fig>
+    </sec>
+    <sec id="tables">
+      <title>5 Tables</title>
+    </sec>
+    <sec id="references">
+      <title>References</title>
+    </sec>
+  </body>
+  <back>
 </back>
-
-<sub-article article-type="notebook" id="nb-8-nb-article">
-<front-stub>
-<title-group>
-<article-title>La Palma Earthquakes</article-title>
-</title-group>
-<contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">0000-0001-6005-472X</contrib-id>
-<name>
-<surname>Rafik Margaryan</surname>
-<given-names>PhD</given-names>
-</name>
-<string-name>Rafik Margaryan, MD, PhD</string-name>
-
-<email>margaryan@ftgm.it</email>
-<role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
-<role vocab="https://credit.niso.org" vocab-term="project
-administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
-administration</role>
-<role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
-<role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
-<xref ref-type="aff" rid="aff-1-nb-article">a</xref>
-<xref ref-type="corresp" rid="cor-1-nb-article">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">0000-0003-4240-0099</contrib-id>
-<name>
-<surname>Giacomo Bianchi</surname>
-<given-names>PhD</given-names>
-</name>
-<string-name>Giacomo Bianchi, MD, PhD</string-name>
-
-<xref ref-type="aff" rid="aff-2-nb-article">b</xref>
-</contrib>
-</contrib-group>
-<aff id="aff-1-nb-article">
-<institution-wrap>
-<institution>Pentagon</institution>
-</institution-wrap>
-
-
-
-
-
-
-
-</aff>
-<aff id="aff-2-nb-article">
-<institution-wrap>
-<institution>Curvenote</institution>
-</institution-wrap>
-
-
-
-
-
-
-
-</aff>
-<author-notes>
-<corresp id="cor-1-nb-article">margaryan@ftgm.it</corresp>
-</author-notes>
-<abstract>
-<p>In September 2021, a significant jump in seismic activity on the
-island of La Palma (Canary Islands, Spain) signaled the start of a
-volcanic crisis that still continues at the time of writing. Earthquake
-data is continually collected and published by the Instituto Geográphico
-Nacional (IGN). …</p>
-</abstract>
-</front-stub>
-
-<body>
-<sec id="introduction-nb-article">
-  <title>1 Introduction</title>
-  <sec specific-use="notebook-content">
-  <code language="r script">eruptions &lt;- c(1492, 1585, 1646, 1677, 1712, 1949, 1971, 2021)
-n_eruptions &lt;- length(eruptions)</code>
-  </sec>
-  <sec id="cell-fig-timeline-nb-article" specific-use="notebook-content">
-  <code language="r script">par(mar = c(3, 1, 1, 1) + 0.1)
-plot(eruptions, rep(0, n_eruptions), 
-  pch = &quot;|&quot;, axes = FALSE)
-axis(1)
-box()</code>
-  <fig id="fig-timeline-nb-article">
-    <caption><p>Figure 1: Timeline of recent earthquakes on La
-    Palma</p></caption>
-    <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-timeline-1.png" />
-  </fig>
-  </sec>
-  <sec specific-use="notebook-content">
-  <code language="r script">avg_years_between_eruptions &lt;- mean(diff(eruptions[-n_eruptions]))
-avg_years_between_eruptions</code>
-  <boxed-text>
-    <preformat>[1] 79.83333</preformat>
-  </boxed-text>
-  </sec>
-  <p>Based on data up to and including 1971, eruptions on La Palma
-  happen every 79.8 years on average.</p>
-  <p>Studies of the magma systems feeding the volcano, such as Marrero
-  et al.
-  (<xref alt="2019" rid="ref-marrero2019-nb-article" ref-type="bibr">2019</xref>),
-  have proposed that there are two main magma reservoirs feeding the
-  Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges
-  and in turn feeds a shallower crustal reservoir (10-20km depth).</p>
-  <p>Eight eruptions have been recorded since the late 1400s
-  (<xref alt="Figure 1" rid="fig-timeline-nb-article">Figure 1</xref>).</p>
-  <p>Data and methods are discussed in
-  <xref alt="Section 2" rid="sec-data-methods-nb-article">Section 2</xref>.</p>
-  <p>Let <inline-formula><alternatives>
-  <tex-math><![CDATA[x]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>x</mml:mi></mml:math></alternatives></inline-formula>
-  denote the number of eruptions in a year. Then,
-  <inline-formula><alternatives>
-  <tex-math><![CDATA[x]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>x</mml:mi></mml:math></alternatives></inline-formula>
-  can be modeled by a Poisson distribution</p>
-  <p><styled-content id="eq-poisson-nb-article"><disp-formula><alternatives>
-  <tex-math><![CDATA[
-  p(x) = \frac{e^{-\lambda} \lambda^{x}}{x !}
-   \qquad(1)]]></tex-math>
-  <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mi>−</mml:mi><mml:mi>λ</mml:mi></mml:mrow></mml:msup><mml:msup><mml:mi>λ</mml:mi><mml:mi>x</mml:mi></mml:msup></mml:mrow><mml:mrow><mml:mi>x</mml:mi><mml:mi>!</mml:mi></mml:mrow></mml:mfrac><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
-  <p>where <inline-formula><alternatives>
-  <tex-math><![CDATA[\lambda]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>λ</mml:mi></mml:math></alternatives></inline-formula>
-  is the rate of eruptions per year. Using
-  <xref alt="Equation 1" rid="eq-poisson-nb-article">Equation 1</xref>, the
-  probability of an eruption in the next <inline-formula><alternatives>
-  <tex-math><![CDATA[t]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>t</mml:mi></mml:math></alternatives></inline-formula>
-  years can be calculated.</p>
-  <fig id="tbl-history-nb-article">
-    <caption><p>Table 1: Recent historic eruptions on La
-    Palma</p></caption>
-    <table-wrap>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Current</td>
-            <td>2021</td>
-          </tr>
-          <tr>
-            <td>Teneguía</td>
-            <td>1971</td>
-          </tr>
-          <tr>
-            <td>Nambroque</td>
-            <td>1949</td>
-          </tr>
-          <tr>
-            <td>El Charco</td>
-            <td>1712</td>
-          </tr>
-          <tr>
-            <td>Volcán San Antonio</td>
-            <td>1677</td>
-          </tr>
-          <tr>
-            <td>Volcán San Martin</td>
-            <td>1646</td>
-          </tr>
-          <tr>
-            <td>Tajuya near El Paso</td>
-            <td>1585</td>
-          </tr>
-          <tr>
-            <td>Montaña Quemada</td>
-            <td>1492</td>
-          </tr>
-        </tbody>
-      </table>
-    </table-wrap>
-  </fig>
-  <p><xref alt="Table 1" rid="tbl-history-nb-article">Table 1</xref> summarises the
-  eruptions recorded since the colonization of the islands by Europeans
-  in the late 1400s.</p>
-  <fig id="fig-map-nb-article">
-    <caption><p>Figure 2: Map of La Palma</p></caption>
-    <graphic mimetype="image" mime-subtype="png" xlink:href="images/la-palma-map.png" />
-  </fig>
-  <p>La Palma is one of the west most islands in the Volcanic
-  Archipelago of the Canary Islands
-  (<xref alt="Figure 2" rid="fig-map-nb-article">Figure 2</xref>).</p>
-  <sec id="cell-fig-spatial-plot-nb-article" specific-use="notebook-content">
-  <code language="python">la_palma |&gt; 
-  ggplot(aes(Longitude, Latitude)) +
-  geom_point(aes(color = Magnitude, size = 40-`Depth(km)`)) +
-  scale_color_viridis_c(direction = -1) + 
-  scale_size(range = c(0.5, 2), guide = &quot;none&quot;) +
-  theme_bw()</code>
-  <boxed-text>
-    <fig id="fig-spatial-plot-nb-article">
-      <caption><p>Figure 3: Locations of earthquakes on La Palma since
-      2017</p></caption>
-      <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/notebooks-explore-earthquakes-fig-spatial-plot-output-1.png" />
-    </fig>
-  </boxed-text>
-  </sec>
-  <p><xref alt="Figure 3" rid="fig-spatial-plot-nb-article">Figure 3</xref> shows
-  the location of recent Earthquakes on La Palma.</p>
-</sec>
-<sec id="sec-data-methods-nb-article">
-  <title>2 Data &amp; Methods</title>
-</sec>
-<sec id="conclusion-nb-article">
-  <title>3 Conclusion</title>
-</sec>
-</body>
-
-
-
-<back>
-<ref-list>
-  <title>References</title>
-  <ref id="ref-marrero2019-nb-article">
-    <element-citation publication-type="article-journal">
-      <person-group person-group-type="author">
-        <name><surname>Marrero</surname><given-names>José</given-names></name>
-        <name><surname>García</surname><given-names>Alicia</given-names></name>
-        <name><surname>Berrocoso</surname><given-names>Manuel</given-names></name>
-        <name><surname>Llinares</surname><given-names>Ángeles</given-names></name>
-        <name><surname>Rodríguez-Losada</surname><given-names>Antonio</given-names></name>
-        <name><surname>Ortiz</surname><given-names>R.</given-names></name>
-      </person-group>
-      <article-title>Strategies for the development of volcanic hazard maps in monogenetic volcanic fields: The example of La Palma (Canary Islands)</article-title>
-      <source>Journal of Applied Volcanology</source>
-      <year iso-8601-date="2019-07">2019</year><month>07</month>
-      <volume>8</volume>
-      <pub-id pub-id-type="doi">10.1186/s13617-019-0085-5</pub-id>
-      <fpage></fpage>
-      <lpage></lpage>
-    </element-citation>
-  </ref>
-</ref-list>
-</back>
-
-
-</sub-article>
-<sub-article article-type="notebook" id="nb-4-nb-1">
-<front-stub>
-<title-group>
-<article-title>Explore Earthquakes</article-title>
-</title-group>
-<contrib-group>
-<contrib contrib-type="author">
-<name>
-<surname>Wickham</surname>
-<given-names>Charlotte</given-names>
-</name>
-<string-name>Charlotte Wickham</string-name>
-
-</contrib>
-</contrib-group>
-</front-stub>
-
-<body>
-<sec specific-use="notebook-content">
-<code language="r script">library(tidyverse)
+  <sub-article article-type="notebook" id="nb-2-nb-1">
+    <front-stub>
+      <title-group>
+        <article-title>First Stage</article-title>
+      </title-group>
+    </front-stub>
+    <body>
+      <sec specific-use="notebook-content">
+        <code language="r script">library(tidyverse)
 </code>
-<boxed-text>
-  <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+        <boxed-text>
+          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
+        </boxed-text>
+        <code language="r script">library(googlesheets4)
+library(gtsummary)
+library(ggplot2)
+library(ggstatsplot)
+</code>
+        <boxed-text>
+          <preformat>You can cite this package as:
+     Patil, I. (2021). Visualizations with statistical details: The 'ggstatsplot' approach.
+     Journal of Open Source Software, 6(61), 3167, doi:10.21105/joss.03167</preformat>
+        </boxed-text>
+      </sec>
+      <sec id="first-stage-report-nb-1">
+        <title>First stage report</title>
+        <sec specific-use="notebook-content">
+          <code language="r script">load("../data/data.RData")
+  </code>
+        </sec>
+        <sec specific-use="notebook-content">
+          <code language="r script">first_stage_data_raw |&gt;
+  select(trt, outcome, bmi, diabetis) |&gt;
+  tbl_summary() 
+  </code>
+          <fig id="tbl-demo-stage1-nb-1">
+            <caption>
+              <p>Demographics of the first stage</p>
+            </caption>
+            <table-wrap>
+              <table>
+                <colgroup>
+                  <col width="50%"/>
+                  <col width="50%"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th id="label-nb-1" scope="col">
+                      <bold>Characteristic</bold>
+                    </th>
+                    <th id="stat_0-nb-1" scope="col">
+                      <bold>N =
+            30</bold>
+                      <named-content content-type="gt_footnote_marks">
+                        <sup>1</sup>
+                      </named-content>
+                    </th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
+            n (%); Median (Q1, Q3)</td>
+                  </tr>
+                </tfoot>
+                <tbody>
+                  <tr>
+                    <td headers="label">trt</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    case</td>
+                    <td headers="stat_0">15 (50%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    control</td>
+                    <td headers="stat_0">15 (50%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">outcome</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    close</td>
+                    <td headers="stat_0">17 (57%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    open</td>
+                    <td headers="stat_0">13 (43%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">bmi</td>
+                    <td headers="stat_0">32 (26, 36)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">diabetis</td>
+                    <td headers="stat_0">12 (40%)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </fig>
+        </sec>
+        <sec id="cell-fig-bmi-first-stage-nb-1" specific-use="notebook-content">
+          <code language="r script">ggstatsplot::ggbetweenstats(
+  data = first_stage_data_raw,
+  x = trt,
+  y = bmi,
+  pairwise.display = "p-value",
+  p.adjust.method = "bonferroni",
+  var.equal = TRUE,
+  title = "BMI by treatment group"
+)
+  </code>
+          <fig id="fig-bmi-first-stage-nb-1">
+            <graphic id="fig-bmi-first-stage-nb-1" mimetype="image" mime-subtype="png" xlink:href="clinical_trial_first_stage_files/figure-jats/fig-bmi-first-stage-1.png"/>
+          </fig>
+        </sec>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-4-nb-2">
+    <front-stub>
+      <title-group>
+        <article-title>Second Stage</article-title>
+      </title-group>
+    </front-stub>
+    <body>
+      <sec specific-use="notebook-content">
+        <code language="r script">library(tidyverse)
+</code>
+        <boxed-text>
+          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
+        </boxed-text>
+        <code language="r script">library(googlesheets4)
+library(gtsummary)
+</code>
+      </sec>
+      <sec id="first-stage-report-nb-2">
+        <title>First stage report</title>
+        <sec specific-use="notebook-content">
+          <code language="r script">load("../data/data.RData")
+  </code>
+        </sec>
+        <sec specific-use="notebook-content">
+          <code language="r script">second_stage_data_raw |&gt;
+  select(trt, outcome, bmi, diabetis) |&gt;
+  tbl_summary() 
+  </code>
+          <fig id="tbl-demo-stage2-nb-2">
+            <caption>
+              <p>Demographics of the second stage stage</p>
+            </caption>
+            <table-wrap>
+              <table>
+                <colgroup>
+                  <col width="50%"/>
+                  <col width="50%"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th id="label-nb-2" scope="col">
+                      <bold>Characteristic</bold>
+                    </th>
+                    <th id="stat_0-nb-2" scope="col">
+                      <bold>N =
+            60</bold>
+                      <named-content content-type="gt_footnote_marks">
+                        <sup>1</sup>
+                      </named-content>
+                    </th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
+            n (%); Median (Q1, Q3)</td>
+                  </tr>
+                </tfoot>
+                <tbody>
+                  <tr>
+                    <td headers="label">trt</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    case</td>
+                    <td headers="stat_0">30 (50%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    control</td>
+                    <td headers="stat_0">30 (50%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">outcome</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    close</td>
+                    <td headers="stat_0">34 (57%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    open</td>
+                    <td headers="stat_0">26 (43%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">bmi</td>
+                    <td headers="stat_0">32 (26, 36)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">diabetis</td>
+                    <td headers="stat_0">24 (40%)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </fig>
+        </sec>
+        <sec id="cell-fig-bmi-second-stage-nb-2" specific-use="notebook-content">
+          <code language="r script">ggstatsplot::ggbetweenstats(
+  data = second_stage_data_raw,
+  x = trt,
+  y = bmi,
+  pairwise.display = "p-value",
+  p.adjust.method = "bonferroni",
+  var.equal = TRUE,
+  title = "BMI by treatment group"
+)
+  </code>
+          <fig id="fig-bmi-second-stage-nb-2">
+            <graphic id="fig-bmi-second-stage-nb-2" mimetype="image" mime-subtype="png" xlink:href="clinical_trial_second_stage_files/figure-jats/fig-bmi-second-stage-1.png"/>
+          </fig>
+        </sec>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-6-nb-3">
+    <front-stub>
+      <title-group>
+        <article-title>Explore Earthquakes</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wickham</surname>
+            <given-names>Charlotte</given-names>
+          </name>
+          <string-name>Charlotte Wickham</string-name>
+        </contrib>
+      </contrib-group>
+    </front-stub>
+    <body>
+      <sec specific-use="notebook-content">
+        <code language="r script">library(tidyverse)
+</code>
+        <boxed-text>
+          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.3     ✔ readr     2.1.4
 ✔ forcats   1.0.0     ✔ stringr   1.5.0
 ✔ ggplot2   3.4.3     ✔ tibble    3.2.1
@@ -535,47 +405,44 @@ avg_years_between_eruptions</code>
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
-</boxed-text>
-</sec>
-<p>Read a clean version of data:</p>
-<sec specific-use="notebook-content">
-<code language="r script">la_palma &lt;- read_csv(&quot;la-palma.csv&quot;)
+        </boxed-text>
+      </sec>
+      <p>Read a clean version of data:</p>
+      <sec specific-use="notebook-content">
+        <code language="r script">la_palma &lt;- read_csv("la-palma.csv")
 </code>
-<boxed-text>
-  <preformat>Rows: 11347 Columns: 5
+        <boxed-text>
+          <preformat>Rows: 11347 Columns: 5
 ── Column specification ────────────────────────────────────────────────────────
-Delimiter: &quot;,&quot;
+Delimiter: ","
 dbl  (4): Longitude, Latitude, Depth(km), Magnitude
 dttm (1): DateTime
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</preformat>
-</boxed-text>
-</sec>
-<p>Create spatial plot:</p>
-<sec id="cell-fig-spatial-plot-nb-1" specific-use="notebook-content">
-<code language="r script">#|   against longitude.&quot;
+        </boxed-text>
+      </sec>
+      <p>Create spatial plot:</p>
+      <sec id="cell-fig-spatial-plot-nb-3" specific-use="notebook-content">
+        <code language="r script">#|   against longitude."
 la_palma |&gt; 
   ggplot(aes(Longitude, Latitude)) +
   geom_point(aes(color = Magnitude, size = 40-`Depth(km)`)) +
   scale_color_viridis_c(direction = -1) + 
-  scale_size(range = c(0.5, 2), guide = &quot;none&quot;) +
+  scale_size(range = c(0.5, 2), guide = "none") +
   theme_bw()
 </code>
-<fig id="fig-spatial-plot-nb-1">
-  <caption><p>Locations of earthquakes on La Palma since
-  2017</p></caption>
-  <graphic mimetype="image" mime-subtype="png" xlink:href="explore-earthquakes_files/figure-jats/fig-spatial-plot-1.png" />
-</fig>
-</sec>
-</body>
-
-
-
-<back>
+        <fig id="fig-spatial-plot-nb-3">
+          <caption>
+            <p>Locations of earthquakes on La Palma since
+  2017</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="explore-earthquakes_files/figure-jats/fig-spatial-plot-1.png"/>
+        </fig>
+      </sec>
+    </body>
+    <back>
 </back>
-
-
-</sub-article>
-
+  </sub-article>
+  <!-- (F2ED4C6E)[nb-4]:/Users/rafikmargaryan/Desktop/manuscript-template/notebooks/gantt_chart.qmd -->
 </article>
