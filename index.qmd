@@ -55,6 +55,8 @@ df <- df |> mutate(trt = factor(trt, labels = c("Experimental", "Control")))
 
 The median sternotomy is a common surgical approach used in cardiac surgery. It provides access to the heart and great vessels, allowing for various procedures such as coronary artery bypass grafting (CABG), valve repair or replacement, and aortic surgery[@angelini1989]. However, one of the potential complications of median sternotomy is the opening of the pleural cavities, which can lead to postoperative complications such as pneumothorax, hemothorax, and respiratory distress.
 
+![Pleural Cavities](images/pleural_cavities.png)
+
 ## Material & Methods {#sec-data-methods}
 
 Patients were randomly assigned to two groups: the experimental group, which underwent median sternotomy with lungs down 10 second and two thorax compression, and the control group without this maneuver. The primary outcome was the incidence of pleural cavity opening given two operators, hospital mortality. Secondary outcomes included length of hospital stay and postoperative pain from drenages. The data was collected from a single center and included demographic information, surgical details, and postoperative outcomes. The data was analyzed using statistical software to compare the outcomes between the two groups.

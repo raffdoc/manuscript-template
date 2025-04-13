@@ -92,6 +92,12 @@ cavities.</p>
   median sternotomy is the opening of the pleural cavities, which can
   lead to postoperative complications such as pneumothorax, hemothorax,
   and respiratory distress.</p>
+      <fig>
+        <caption>
+          <p>Pleural Cavities</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="png" xlink:href="images/pleural_cavities.png"/>
+      </fig>
     </sec>
     <sec id="sec-data-methods">
       <title>2 Material &amp; Methods</title>
@@ -592,6 +598,12 @@ df &lt;- df |&gt; mutate(trt = factor(trt, labels = c("Experimental", "Control")
   median sternotomy is the opening of the pleural cavities, which can
   lead to postoperative complications such as pneumothorax, hemothorax,
   and respiratory distress.</p>
+        <fig>
+          <caption>
+            <p>Pleural Cavities</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="images/pleural_cavities.png"/>
+        </fig>
       </sec>
       <sec id="sec-data-methods-nb-article">
         <title>2 Material &amp; Methods</title>
