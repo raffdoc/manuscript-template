@@ -31,7 +31,7 @@ first_stage_data_raw |>
 ```
 
 ```{r}
-#| label: fig-bmi
+#| label: fig-bmi-first-stage
 #| echo: false
 ggstatsplot::ggbetweenstats(
   data = first_stage_data_raw,
