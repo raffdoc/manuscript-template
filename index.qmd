@@ -131,7 +131,15 @@ df |>
   
 ```
 
+## Discussion
+
+We have conducted a clinical trial to evaluate the effectiveness of a new approach to median sternotomy in reducing the incidence of pleural cavity opening. Other studies have shown that median sternotomy can lead to complications such as pneumothorax and hemothorax, which can significantly impact postoperative outcomes[@gullu2009].
+
+The results of this study suggest that the new approach may be beneficial in improving postoperative outcomes. There are several limitations to this study, including the small sample size and the single-center design.
+
 ## Acknowledgements
+
+This study was supported by institutional committee. The authors would like to thank all the patients who participated in this study and the medical staff for their support.
 
 ## References {.unnumbered}
 

@@ -393,8 +393,25 @@ cavities.</p>
         </table-wrap>
       </fig>
     </sec>
+    <sec id="discussion">
+      <title>7 Discussion</title>
+      <p>We have conducted a clinical trial to evaluate the effectiveness of
+  a new approach to median sternotomy in reducing the incidence of
+  pleural cavity opening. Other studies have shown that median
+  sternotomy can lead to complications such as pneumothorax and
+  hemothorax, which can significantly impact postoperative
+  outcomes(<xref alt="Gullu et al. 2009" rid="ref-gullu2009" ref-type="bibr">Gullu
+  et al. 2009</xref>).</p>
+      <p>The results of this study suggest that the new approach may be
+  beneficial in improving postoperative outcomes. There are several
+  limitations to this study, including the small sample size and the
+  single-center design.</p>
+    </sec>
     <sec id="acknowledgements">
-      <title>7 Acknowledgements</title>
+      <title>8 Acknowledgements</title>
+      <p>This study was supported by institutional committee. The authors
+  would like to thank all the patients who participated in this study
+  and the medical staff for their support.</p>
     </sec>
   </body>
   <back>
@@ -421,6 +438,58 @@ cavities.</p>
           <pub-id pub-id-type="doi">10.1093/oxfordjournals.eurheartj.a059476</pub-id>
           <fpage>273</fpage>
           <lpage>280</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-gullu2009">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gullu</surname>
+              <given-names>Ahmet Umit</given-names>
+            </name>
+            <name>
+              <surname>Ekinci</surname>
+              <given-names>Abdurrahman</given-names>
+            </name>
+            <name>
+              <surname>Sensoz</surname>
+              <given-names>Yavuz</given-names>
+            </name>
+            <name>
+              <surname>Kızılay</surname>
+              <given-names>Mehmet</given-names>
+            </name>
+            <name>
+              <surname>Senay</surname>
+              <given-names>Sahin</given-names>
+            </name>
+            <name>
+              <surname>Arnaz</surname>
+              <given-names>Ahmet</given-names>
+            </name>
+            <name>
+              <surname>Coruh</surname>
+              <given-names>Turkan</given-names>
+            </name>
+            <name>
+              <surname>Ates</surname>
+              <given-names>Mehmet</given-names>
+            </name>
+            <name>
+              <surname>Akcar</surname>
+              <given-names>Murat</given-names>
+            </name>
+          </person-group>
+          <article-title>Preserved Pleural Integrity Provides Better Respiratory Function and Pain Score after Coronary Surgery</article-title>
+          <source>Journal of Cardiac Surgery</source>
+          <year iso-8601-date="2009-07">2009</year>
+          <month>07</month>
+          <volume>24</volume>
+          <issue>4</issue>
+          <uri>http://dx.doi.org/10.1111/j.1540-8191.2008.00734.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1540-8191.2008.00734.x</pub-id>
+          <fpage>374</fpage>
+          <lpage>378</lpage>
         </element-citation>
       </ref>
     </ref-list>
@@ -881,8 +950,25 @@ df |&gt;
           </fig>
         </sec>
       </sec>
+      <sec id="discussion-nb-article">
+        <title>7 Discussion</title>
+        <p>We have conducted a clinical trial to evaluate the effectiveness of
+  a new approach to median sternotomy in reducing the incidence of
+  pleural cavity opening. Other studies have shown that median
+  sternotomy can lead to complications such as pneumothorax and
+  hemothorax, which can significantly impact postoperative
+  outcomes(<xref alt="Gullu et al. 2009" rid="ref-gullu2009-nb-article" ref-type="bibr">Gullu
+  et al. 2009</xref>).</p>
+        <p>The results of this study suggest that the new approach may be
+  beneficial in improving postoperative outcomes. There are several
+  limitations to this study, including the small sample size and the
+  single-center design.</p>
+      </sec>
       <sec id="acknowledgements-nb-article">
-        <title>7 Acknowledgements</title>
+        <title>8 Acknowledgements</title>
+        <p>This study was supported by institutional committee. The authors
+  would like to thank all the patients who participated in this study
+  and the medical staff for their support.</p>
       </sec>
     </body>
     <back>
@@ -909,6 +995,58 @@ df |&gt;
             <pub-id pub-id-type="doi">10.1093/oxfordjournals.eurheartj.a059476</pub-id>
             <fpage>273</fpage>
             <lpage>280</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-gullu2009-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Gullu</surname>
+                <given-names>Ahmet Umit</given-names>
+              </name>
+              <name>
+                <surname>Ekinci</surname>
+                <given-names>Abdurrahman</given-names>
+              </name>
+              <name>
+                <surname>Sensoz</surname>
+                <given-names>Yavuz</given-names>
+              </name>
+              <name>
+                <surname>Kızılay</surname>
+                <given-names>Mehmet</given-names>
+              </name>
+              <name>
+                <surname>Senay</surname>
+                <given-names>Sahin</given-names>
+              </name>
+              <name>
+                <surname>Arnaz</surname>
+                <given-names>Ahmet</given-names>
+              </name>
+              <name>
+                <surname>Coruh</surname>
+                <given-names>Turkan</given-names>
+              </name>
+              <name>
+                <surname>Ates</surname>
+                <given-names>Mehmet</given-names>
+              </name>
+              <name>
+                <surname>Akcar</surname>
+                <given-names>Murat</given-names>
+              </name>
+            </person-group>
+            <article-title>Preserved Pleural Integrity Provides Better Respiratory Function and Pain Score after Coronary Surgery</article-title>
+            <source>Journal of Cardiac Surgery</source>
+            <year iso-8601-date="2009-07">2009</year>
+            <month>07</month>
+            <volume>24</volume>
+            <issue>4</issue>
+            <uri>http://dx.doi.org/10.1111/j.1540-8191.2008.00734.x</uri>
+            <pub-id pub-id-type="doi">10.1111/j.1540-8191.2008.00734.x</pub-id>
+            <fpage>374</fpage>
+            <lpage>378</lpage>
           </element-citation>
         </ref>
       </ref-list>
