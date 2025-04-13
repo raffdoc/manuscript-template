@@ -1,5 +1,5 @@
 ---
-title: La Palma Earthquakes
+title: Clinical Trial On Pleural Cavity Opening During Median Sternotomy
 author:
   - name: Rafik Margaryan, MD, PhD
     orcid: 0000-0001-6005-472X
