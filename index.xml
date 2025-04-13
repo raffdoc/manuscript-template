@@ -80,15 +80,29 @@ cavities.</p>
   <body>
     <sec id="introduction">
       <title>1 Introduction</title>
+      <p>The median sternotomy is a common surgical approach used in cardiac
+  surgery. It provides access to the heart and great vessels, allowing
+  for various procedures such as coronary artery bypass grafting (CABG),
+  valve repair or replacement, and aortic surgery. However, one of the
+  potential complications of median sternotomy is the opening of the
+  pleural cavities, which can lead to postoperative complications such
+  as pneumothorax, hemothorax, and respiratory distress.</p>
     </sec>
     <sec id="sec-data-methods">
       <title>2 Data &amp; Methods</title>
-    </sec>
-    <sec id="conclusion">
-      <title>3 Conclusion</title>
+      <p>Patients were randomly assigned to two groups: the experimental
+  group, which underwent median sternotomy with lungs down 10 second and
+  two thorax compression, and the control group without this maneuver.
+  The primary outcome was the incidence of pleural cavity opening given
+  two operators, hospital mortality. Secondary outcomes included length
+  of hospital stay and postoperative pain from drenages. The data was
+  collected from a single center and included demographic information,
+  surgical details, and postoperative outcomes. The data was analyzed
+  using statistical software to compare the outcomes between the two
+  groups. ## Conclusion</p>
     </sec>
     <sec id="figures">
-      <title>4 Figures</title>
+      <title>3 Figures</title>
       <fig id="fig-bmi-first-stage">
         <caption>
           <p>Figure 1</p>
@@ -103,7 +117,151 @@ cavities.</p>
       </fig>
     </sec>
     <sec id="tables">
-      <title>5 Tables</title>
+      <title>4 Tables</title>
+      <fig id="tbl-demo-stage1">
+        <caption>
+          <p>Table 1: Demographics of the first stage</p>
+        </caption>
+        <table-wrap>
+          <table>
+            <colgroup>
+              <col width="49%"/>
+              <col width="49%"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="left">
+                  <bold>Characteristic</bold>
+                </th>
+                <th align="left">
+                  <bold>N =
+            30</bold>
+                  <named-content content-type="gt_footnote_marks">
+                    <sup>1</sup>
+                  </named-content>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">trt</td>
+                <td align="left">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">    case</td>
+                <td align="left">15 (50%)</td>
+              </tr>
+              <tr>
+                <td align="left">    control</td>
+                <td align="left">15 (50%)</td>
+              </tr>
+              <tr>
+                <td align="left">outcome</td>
+                <td align="left">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">    close</td>
+                <td align="left">17 (57%)</td>
+              </tr>
+              <tr>
+                <td align="left">    open</td>
+                <td align="left">13 (43%)</td>
+              </tr>
+              <tr>
+                <td align="left">bmi</td>
+                <td align="left">32 (26, 36)</td>
+              </tr>
+              <tr>
+                <td align="left">diabetis</td>
+                <td align="left">12 (40%)</td>
+              </tr>
+              <tr>
+                <td align="left"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
+            n (%); Median (Q1, Q3)</td>
+                <td align="left"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+      <fig id="tbl-demo-stage2">
+        <caption>
+          <p>Table 2: Demographics of the second stage
+    stage</p>
+        </caption>
+        <table-wrap>
+          <table>
+            <colgroup>
+              <col width="49%"/>
+              <col width="49%"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="left">
+                  <bold>Characteristic</bold>
+                </th>
+                <th align="left">
+                  <bold>N =
+            60</bold>
+                  <named-content content-type="gt_footnote_marks">
+                    <sup>1</sup>
+                  </named-content>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">trt</td>
+                <td align="left">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">    case</td>
+                <td align="left">30 (50%)</td>
+              </tr>
+              <tr>
+                <td align="left">    control</td>
+                <td align="left">30 (50%)</td>
+              </tr>
+              <tr>
+                <td align="left">outcome</td>
+                <td align="left">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">    close</td>
+                <td align="left">34 (57%)</td>
+              </tr>
+              <tr>
+                <td align="left">    open</td>
+                <td align="left">26 (43%)</td>
+              </tr>
+              <tr>
+                <td align="left">bmi</td>
+                <td align="left">32 (26, 36)</td>
+              </tr>
+              <tr>
+                <td align="left">diabetis</td>
+                <td align="left">24 (40%)</td>
+              </tr>
+              <tr>
+                <td align="left"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
+            n (%); Median (Q1, Q3)</td>
+                <td align="left"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+    </sec>
+    <sec id="acknowledgements">
+      <title>5 Acknowledgements</title>
     </sec>
     <sec id="references">
       <title>References</title>
