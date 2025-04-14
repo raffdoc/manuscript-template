@@ -12,6 +12,8 @@ format:
   docx: default
   jats: default
   pdf: default
+  elsevier-pdf:
+    keep-tex: true  
 
 
 
