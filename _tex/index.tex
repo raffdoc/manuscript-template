@@ -5,9 +5,7 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  letterpaper,
-  DIV=11,
-  numbers=noendperiod]{scrartcl}
+  number]{elsarticle}
 \usepackage{xcolor}
 \usepackage{amsmath,amssymb}
 \setcounter{secnumdepth}{5}
@@ -93,39 +91,6 @@
 \makeatother
 
 
-% definitions for citeproc citations
-\NewDocumentCommand\citeproctext{}{}
-\NewDocumentCommand\citeproc{mm}{%
-  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
-\makeatletter
- % allow citations to break across lines
- \let\@cite@ofmt\@firstofone
- % avoid brackets around text for \cite:
- \def\@biblabel#1{}
- \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
-\makeatother
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newlength{\csllabelwidth}
-\setlength{\csllabelwidth}{3em}
-\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
- {\begin{list}{}{%
-  \setlength{\itemindent}{0pt}
-  \setlength{\leftmargin}{0pt}
-  \setlength{\parsep}{0pt}
-  % turn on hanging indent if param 1 is 1
-  \ifodd #1
-   \setlength{\leftmargin}{\cslhangindent}
-   \setlength{\itemindent}{-1\cslhangindent}
-  \fi
-  % set entry spacing
-  \setlength{\itemsep}{#2\baselineskip}}}
- {\end{list}}
-\usepackage{calc}
-\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
-\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 
 
@@ -137,6 +102,8 @@
 
 
  
+\usepackage[]{natbib}
+\bibliographystyle{elsarticle-num}
 
 
 \usepackage{booktabs}
@@ -146,7 +113,6 @@
 \usepackage{array}
 \usepackage{anyfontsize}
 \usepackage{multirow}
-\KOMAoption{captions}{tableheading}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -203,12 +169,28 @@
   pdfcreator={LaTeX via pandoc}}
 
 
+\setlength{\parindent}{6pt}
+\begin{document}
+
+\begin{frontmatter}
 \title{Clinical Trial On Pleural Cavity Opening During Median
 Sternotomy}
-\author{Rafik Margaryan, MD, PhD \and Giacomo Bianchi, MD, PhD}
-\date{2025-04-14}
-\begin{document}
-\maketitle
+\author[1]{Rafik Margaryan, MD, PhD%
+\corref{cor1}%
+}
+ \ead{margaryan@ftgm.it} 
+\author[2]{Giacomo Bianchi, MD, PhD%
+%
+}
+
+
+\affiliation[1]{organization={KGB, Moscow},,postcodesep={}}
+\affiliation[2]{organization={FBI, Washington},,postcodesep={}}
+
+\cortext[cor1]{Corresponding author}
+
+
+        
 \begin{abstract}
 Clinicsl Trials are the backbone of the modern medicine. They are the
 only way to test securly a hypothesis and to put out an evidence based
@@ -217,6 +199,16 @@ clinical trial on how to make sternotomy without opening plerual
 cavities.
 \end{abstract}
 
+
+
+
+
+\begin{keyword}
+    Clinical Trial \sep 
+    Cardiac Surgery
+\end{keyword}
+\end{frontmatter}
+    
 
 \textsubscript{Source:
 \href{https://raffdoc.github.io/manuscript-template/index-preview.html}{Article
@@ -227,11 +219,10 @@ Notebook}}
 The median sternotomy is a common surgical approach used in cardiac
 surgery. It provides access to the heart and great vessels, allowing for
 various procedures such as coronary artery bypass grafting (CABG), valve
-repair or replacement, and aortic surgery(Angelini and Newby 1989).
-However, one of the potential complications of median sternotomy is the
-opening of the pleural cavities, which can lead to postoperative
-complications such as pneumothorax, hemothorax, and respiratory
-distress.
+repair or replacement, and aortic surgery\citep{angelini1989}. However,
+one of the potential complications of median sternotomy is the opening
+of the pleural cavities, which can lead to postoperative complications
+such as pneumothorax, hemothorax, and respiratory distress.
 
 \section{Material \& Methods}\label{sec-data-methods}
 
@@ -367,7 +358,7 @@ We have conducted a clinical trial to evaluate the effectiveness of a
 new approach to median sternotomy in reducing the incidence of pleural
 cavity opening. Other studies have shown that median sternotomy can lead
 to complications such as pneumothorax and hemothorax, which can
-significantly impact postoperative outcomes(Gullu et al. 2009).
+significantly impact postoperative outcomes\citep{gullu2009}.
 
 The results of this study suggest that the new approach may be
 beneficial in improving postoperative outcomes. There are several
@@ -383,23 +374,9 @@ medical staff for their support.
 \section*{References}\label{references}
 \addcontentsline{toc}{section}{References}
 
-\phantomsection\label{refs}
-\begin{CSLReferences}{1}{0}
-\bibitem[\citeproctext]{ref-angelini1989}
-Angelini, G. D., and A. C. Newby. 1989. {``The future of saphenous vein
-as a coronary artery bypass conduit.''} \emph{European Heart Journal} 10
-(3): 273--80.
-\url{https://doi.org/10.1093/oxfordjournals.eurheartj.a059476}.
+\renewcommand{\bibsection}{}
+\bibliography{references.bib}
 
-\bibitem[\citeproctext]{ref-gullu2009}
-Gullu, Ahmet Umit, Abdurrahman Ekinci, Yavuz Sensoz, Mehmet Kızılay,
-Sahin Senay, Ahmet Arnaz, Turkan Coruh, Mehmet Ates, and Murat Akcar.
-2009. {``Preserved Pleural Integrity Provides Better Respiratory
-Function and Pain Score After Coronary Surgery.''} \emph{Journal of
-Cardiac Surgery} 24 (4): 374--78.
-\url{https://doi.org/10.1111/j.1540-8191.2008.00734.x}.
-
-\end{CSLReferences}
 
 
 
