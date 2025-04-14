@@ -1,131 +1,89 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
 and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
-
 <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
-
-<front>
-<journal-meta>
-<journal-id></journal-id>
-
-<journal-title-group>
-<journal-title>Cardiac Surgery Trials</journal-title>
-</journal-title-group>
-<issn></issn>
-
-<publisher>
-<publisher-name></publisher-name>
-</publisher>
-</journal-meta>
-
-
-<article-meta>
-
-
-<title-group>
-<article-title>Clinical Trial On Pleural Cavity Opening During Median
+  <front>
+    <journal-meta>
+      <journal-id/>
+      <journal-title-group>
+        <journal-title>Cardiac Surgery Trials</journal-title>
+      </journal-title-group>
+      <issn/>
+      <publisher>
+        <publisher-name/>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Clinical Trial On Pleural Cavity Opening During Median
 Sternotomy</article-title>
-</title-group>
-
-<contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">0000-0001-6005-472X</contrib-id>
-<name>
-<surname>Rafik Margaryan</surname>
-<given-names>PhD</given-names>
-</name>
-<string-name>Rafik Margaryan, MD, PhD</string-name>
-
-<email>margaryan@ftgm.it</email>
-<role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
-<role vocab="https://credit.niso.org" vocab-term="project
-administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">0000-0001-6005-472X</contrib-id>
+          <name>
+            <surname>Rafik Margaryan</surname>
+            <given-names>PhD</given-names>
+          </name>
+          <string-name>Rafik Margaryan, MD, PhD</string-name>
+          <email>margaryan@ftgm.it</email>
+          <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="https://credit.niso.org" vocab-term="project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
 administration</role>
-<role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
-<role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
-<xref ref-type="aff" rid="aff-1">a</xref>
-<xref ref-type="corresp" rid="cor-1">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">0000-0003-4240-0099</contrib-id>
-<name>
-<surname>Giacomo Bianchi</surname>
-<given-names>PhD</given-names>
-</name>
-<string-name>Giacomo Bianchi, MD, PhD</string-name>
-
-<role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
-<role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
-<role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
-<xref ref-type="aff" rid="aff-2">b</xref>
-</contrib>
-</contrib-group>
-<aff id="aff-1">
-<institution-wrap>
-<institution>KGB, Moscow</institution>
-</institution-wrap>
-
-
-
-
-
-
-
-</aff>
-<aff id="aff-2">
-<institution-wrap>
-<institution>FBI, Washington</institution>
-</institution-wrap>
-
-
-
-
-
-
-
-</aff>
-<author-notes>
-<corresp id="cor-1">margaryan@ftgm.it</corresp>
-</author-notes>
-
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-04-14">
-<year>2025</year>
-<month>4</month>
-<day>14</day>
-</pub-date>
-
-
-
-
-
-
-
-<history></history>
-
-
-<abstract>
-<p>Clinicsl Trials are the backbone of the modern medicine. They are the
+          <role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+          <xref ref-type="corresp" rid="cor-1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">0000-0003-4240-0099</contrib-id>
+          <name>
+            <surname>Giacomo Bianchi</surname>
+            <given-names>PhD</given-names>
+          </name>
+          <string-name>Giacomo Bianchi, MD, PhD</string-name>
+          <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution-wrap>
+          <institution>KGB, Moscow</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-2">
+        <institution-wrap>
+          <institution>FBI, Washington</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1">margaryan@ftgm.it</corresp>
+      </author-notes>
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-04-14">
+        <year>2025</year>
+        <month>4</month>
+        <day>14</day>
+      </pub-date>
+      <history/>
+      <abstract>
+        <p>Clinicsl Trials are the backbone of the modern medicine. They are the
 only way to test securly a hypothesis and to put out an evidence based
 medicine. In this paper we will discuss the first and second stage of a
 clinical trial on how to make sternotomy without opening plerual
 cavities.</p>
-</abstract>
-<kwd-group kwd-group-type="author">
-<kwd>Clinical Trial</kwd>
-<kwd>Cardiac Surgery</kwd>
-</kwd-group>
-
-
-
-
-</article-meta>
-
-</front>
-
-<body>
-<sec id="introduction">
-  <title>1 Introduction</title>
-  <p>The median sternotomy is a common surgical approach used in cardiac
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <kwd>Clinical Trial</kwd>
+        <kwd>Cardiac Surgery</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="introduction">
+      <title>1 Introduction</title>
+      <p>The median sternotomy is a common surgical approach used in cardiac
   surgery. It provides access to the heart and great vessels, allowing
   for various procedures such as coronary artery bypass grafting (CABG),
   valve repair or replacement, and aortic
@@ -134,10 +92,10 @@ cavities.</p>
   median sternotomy is the opening of the pleural cavities, which can
   lead to postoperative complications such as pneumothorax, hemothorax,
   and respiratory distress.</p>
-</sec>
-<sec id="sec-data-methods">
-  <title>2 Material &amp; Methods</title>
-  <p>Patients were randomly assigned to two groups: the experimental
+    </sec>
+    <sec id="sec-data-methods">
+      <title>2 Material &amp; Methods</title>
+      <p>Patients were randomly assigned to two groups: the experimental
   group, which underwent median sternotomy with lungs down 10 second and
   two thorax compression, and the control group without this maneuver.
   The primary outcome was the incidence of pleural cavity opening given
@@ -147,9 +105,9 @@ cavities.</p>
   surgical details, and postoperative outcomes. The data was analyzed
   using statistical software to compare the outcomes between the two
   groups.</p>
-  <sec id="statistical-inference">
-    <title>2.1 Statistical Inference</title>
-    <p>All data was collected prospectively by multiple operators in a
+      <sec id="statistical-inference">
+        <title>2.1 Statistical Inference</title>
+        <p>All data was collected prospectively by multiple operators in a
     shared single file with version control. The all manuscript was
     written using Quarto Manuscript writing system with R programming
     incorporated. The article is published using the github pages on
@@ -157,28 +115,20 @@ cavities.</p>
     on
     <ext-link ext-link-type="uri" xlink:href="https://github.com/raffdoc/manuscript-template">github
     page</ext-link>.</p>
-  </sec>
-</sec>
-<sec id="results">
-  <title>3 Results</title>
-  <p>There were 1 (2.272727%) patient with hospital mortality in the
+      </sec>
+    </sec>
+    <sec id="results">
+      <title>3 Results</title>
+      <p>There were 1 (2.272727%) patient with hospital mortality in the
   control group and and none in experimental group (p = 0.32). The mean
   age of patients in the experimental group was 67.9
-  <inline-formula><alternatives>
-  <tex-math><![CDATA[\pm]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
+  <inline-formula><alternatives><tex-math><![CDATA[\pm]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
   5.6 years, while in the control group it was 69.6
-  <inline-formula><alternatives>
-  <tex-math><![CDATA[\pm]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
+  <inline-formula><alternatives><tex-math><![CDATA[\pm]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
   6.0 years (p = 0.18). The body mass index (BMI) was also compared
   between the two groups, with a mean BMI of 31.0
-  <inline-formula><alternatives>
-  <tex-math><![CDATA[\pm]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
-  6.0 in the experimental group and 30.8 <inline-formula><alternatives>
-  <tex-math><![CDATA[\pm]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
+  <inline-formula><alternatives><tex-math><![CDATA[\pm]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
+  6.0 in the experimental group and 30.8 <inline-formula><alternatives><tex-math><![CDATA[\pm]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
   6.9 in the control group
   <xref alt="Figure 2" rid="fig-bmi">Figure 2</xref>. The results showed
   that the experimental group had a lower incidence of pleural cavity
@@ -186,352 +136,431 @@ cavities.</p>
   <xref alt="Figure 1" rid="fig-pl-open">Figure 1</xref>. The length of
   hospital stay was also shorter in the experimental group, indicating a
   potential benefit of the new approach.</p>
-</sec>
-<sec id="conclusion">
-  <title>4 Conclusion</title>
-  <p>The results of this study suggest that the new approach to median
+    </sec>
+    <sec id="conclusion">
+      <title>4 Conclusion</title>
+      <p>The results of this study suggest that the new approach to median
   sternotomy with lungs down 10 second and two thorax compression may
   reduce the incidence of pleural cavity opening and improve
   postoperative outcomes. Further studies with larger cohort and wider
   patients’ population group are needed to confirm these findings and
   evaluate the long-term effects of this technique.</p>
-</sec>
-<sec id="figures">
-  <title>5 Figures</title>
-  <fig id="fig-pl-open">
-    <caption><p>Figure 1: Pleural cavity opening</p></caption>
-    <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-pl-open-1.png" />
-  </fig>
-  <fig id="fig-bmi">
-    <caption><p>Figure 2: BMI by treatment group</p></caption>
-    <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-bmi-1.png" />
-  </fig>
-</sec>
-<sec id="tables">
-  <title>6 Tables</title>
-  <fig id="tbl-demo">
-    <caption><p>Table 1: Demographics of the first stage</p></caption>
-    <table-wrap>
-      <table>
-        <colgroup>
-          <col width="20%" />
-          <col width="20%" />
-          <col width="20%" />
-          <col width="20%" />
-          <col width="20%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th id="label" scope="col">Characteristic</th>
-            <th id="stat_0" scope="col">Overall N =
+    </sec>
+    <sec id="figures">
+      <title>5 Figures</title>
+      <fig id="fig-pl-open">
+        <caption>
+          <p>Figure 1: Pleural cavity opening</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-pl-open-1.png"/>
+      </fig>
+      <fig id="fig-bmi">
+        <caption>
+          <p>Figure 2: BMI by treatment group</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-bmi-1.png"/>
+      </fig>
+    </sec>
+    <sec id="tables">
+      <title>6 Tables</title>
+      <fig id="tbl-demo">
+        <caption>
+          <p>Table 1: Demographics of the first stage</p>
+        </caption>
+        <table-wrap>
+          <table>
+            <colgroup>
+              <col width="20%"/>
+              <col width="20%"/>
+              <col width="20%"/>
+              <col width="20%"/>
+              <col width="20%"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th id="label" scope="col">Characteristic</th>
+                <th id="stat_0" scope="col">Overall N =
             90<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-            <th id="stat_1" scope="col">Experimental N =
+                <th id="stat_1" scope="col">Experimental N =
             46<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-            <th id="stat_2" scope="col">Control N =
+                <th id="stat_2" scope="col">Control N =
             44<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-            <th id="p.value" scope="col">p-value</th>
-          </tr>
-        </thead>
-        <tfoot>
-          <tr>
-            <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
+                <th id="p.value" scope="col">p-value</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
             n (%); Mean (SD)</td>
-          </tr>
-        </tfoot>
-        <tbody>
-          <tr>
-            <td headers="label">Pleural cavity opening</td>
-            <td headers="stat_0"><break/></td>
-            <td headers="stat_1"><break/></td>
-            <td headers="stat_2"><break/></td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    close</td>
-            <td headers="stat_0">48 (53%)</td>
-            <td headers="stat_1">30 (65%)</td>
-            <td headers="stat_2">18 (41%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    open</td>
-            <td headers="stat_0">42 (47%)</td>
-            <td headers="stat_1">16 (35%)</td>
-            <td headers="stat_2">26 (59%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">Body Mass Index</td>
-            <td headers="stat_0">31 (6)</td>
-            <td headers="stat_1">31 (6)</td>
-            <td headers="stat_2">31 (7)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">Diabetis</td>
-            <td headers="stat_0">36 (40%)</td>
-            <td headers="stat_1">20 (43%)</td>
-            <td headers="stat_2">16 (36%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">copd</td>
-            <td headers="stat_0">21 (23%)</td>
-            <td headers="stat_1">11 (24%)</td>
-            <td headers="stat_2">10 (23%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">steroids</td>
-            <td headers="stat_0">12 (13%)</td>
-            <td headers="stat_1">3 (6.5%)</td>
-            <td headers="stat_2">9 (20%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">hospital_mortality</td>
-            <td headers="stat_0">1 (1.1%)</td>
-            <td headers="stat_1">0 (0%)</td>
-            <td headers="stat_2">1 (2.3%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">hospital_stay</td>
-            <td headers="stat_0"><break/></td>
-            <td headers="stat_1"><break/></td>
-            <td headers="stat_2"><break/></td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    4</td>
-            <td headers="stat_0">6 (6.7%)</td>
-            <td headers="stat_1">4 (8.7%)</td>
-            <td headers="stat_2">2 (4.5%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    5</td>
-            <td headers="stat_0">30 (33%)</td>
-            <td headers="stat_1">8 (17%)</td>
-            <td headers="stat_2">22 (50%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    6</td>
-            <td headers="stat_0">12 (13%)</td>
-            <td headers="stat_1">8 (17%)</td>
-            <td headers="stat_2">4 (9.1%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    7</td>
-            <td headers="stat_0">18 (20%)</td>
-            <td headers="stat_1">9 (20%)</td>
-            <td headers="stat_2">9 (20%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    8</td>
-            <td headers="stat_0">15 (17%)</td>
-            <td headers="stat_1">10 (22%)</td>
-            <td headers="stat_2">5 (11%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    9</td>
-            <td headers="stat_0">6 (6.7%)</td>
-            <td headers="stat_1">5 (11%)</td>
-            <td headers="stat_2">1 (2.3%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    10</td>
-            <td headers="stat_0">3 (3.3%)</td>
-            <td headers="stat_1">2 (4.3%)</td>
-            <td headers="stat_2">1 (2.3%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">age</td>
-            <td headers="stat_0">68.7 (5.8)</td>
-            <td headers="stat_1">67.9 (5.6)</td>
-            <td headers="stat_2">69.6 (6.0)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">sex</td>
-            <td headers="stat_0"><break/></td>
-            <td headers="stat_1"><break/></td>
-            <td headers="stat_2"><break/></td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    female</td>
-            <td headers="stat_0">33 (37%)</td>
-            <td headers="stat_1">12 (26%)</td>
-            <td headers="stat_2">21 (48%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    male</td>
-            <td headers="stat_0">57 (63%)</td>
-            <td headers="stat_1">34 (74%)</td>
-            <td headers="stat_2">23 (52%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-        </tbody>
-      </table>
-    </table-wrap>
-  </fig>
-</sec>
-<sec id="discussion">
-  <title>7 Discussion</title>
-  <p>We have conducted a clinical trial to evaluate the effectiveness of
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td headers="label">Pleural cavity opening</td>
+                <td headers="stat_0">
+                  <break/>
+                </td>
+                <td headers="stat_1">
+                  <break/>
+                </td>
+                <td headers="stat_2">
+                  <break/>
+                </td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    close</td>
+                <td headers="stat_0">48 (53%)</td>
+                <td headers="stat_1">30 (65%)</td>
+                <td headers="stat_2">18 (41%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    open</td>
+                <td headers="stat_0">42 (47%)</td>
+                <td headers="stat_1">16 (35%)</td>
+                <td headers="stat_2">26 (59%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">Body Mass Index</td>
+                <td headers="stat_0">31 (6)</td>
+                <td headers="stat_1">31 (6)</td>
+                <td headers="stat_2">31 (7)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">Diabetis</td>
+                <td headers="stat_0">36 (40%)</td>
+                <td headers="stat_1">20 (43%)</td>
+                <td headers="stat_2">16 (36%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">copd</td>
+                <td headers="stat_0">21 (23%)</td>
+                <td headers="stat_1">11 (24%)</td>
+                <td headers="stat_2">10 (23%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">steroids</td>
+                <td headers="stat_0">12 (13%)</td>
+                <td headers="stat_1">3 (6.5%)</td>
+                <td headers="stat_2">9 (20%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">hospital_mortality</td>
+                <td headers="stat_0">1 (1.1%)</td>
+                <td headers="stat_1">0 (0%)</td>
+                <td headers="stat_2">1 (2.3%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">hospital_stay</td>
+                <td headers="stat_0">
+                  <break/>
+                </td>
+                <td headers="stat_1">
+                  <break/>
+                </td>
+                <td headers="stat_2">
+                  <break/>
+                </td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    4</td>
+                <td headers="stat_0">6 (6.7%)</td>
+                <td headers="stat_1">4 (8.7%)</td>
+                <td headers="stat_2">2 (4.5%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    5</td>
+                <td headers="stat_0">30 (33%)</td>
+                <td headers="stat_1">8 (17%)</td>
+                <td headers="stat_2">22 (50%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    6</td>
+                <td headers="stat_0">12 (13%)</td>
+                <td headers="stat_1">8 (17%)</td>
+                <td headers="stat_2">4 (9.1%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    7</td>
+                <td headers="stat_0">18 (20%)</td>
+                <td headers="stat_1">9 (20%)</td>
+                <td headers="stat_2">9 (20%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    8</td>
+                <td headers="stat_0">15 (17%)</td>
+                <td headers="stat_1">10 (22%)</td>
+                <td headers="stat_2">5 (11%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    9</td>
+                <td headers="stat_0">6 (6.7%)</td>
+                <td headers="stat_1">5 (11%)</td>
+                <td headers="stat_2">1 (2.3%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    10</td>
+                <td headers="stat_0">3 (3.3%)</td>
+                <td headers="stat_1">2 (4.3%)</td>
+                <td headers="stat_2">1 (2.3%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">age</td>
+                <td headers="stat_0">68.7 (5.8)</td>
+                <td headers="stat_1">67.9 (5.6)</td>
+                <td headers="stat_2">69.6 (6.0)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">sex</td>
+                <td headers="stat_0">
+                  <break/>
+                </td>
+                <td headers="stat_1">
+                  <break/>
+                </td>
+                <td headers="stat_2">
+                  <break/>
+                </td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    female</td>
+                <td headers="stat_0">33 (37%)</td>
+                <td headers="stat_1">12 (26%)</td>
+                <td headers="stat_2">21 (48%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+              <tr>
+                <td headers="label">    male</td>
+                <td headers="stat_0">57 (63%)</td>
+                <td headers="stat_1">34 (74%)</td>
+                <td headers="stat_2">23 (52%)</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+    </sec>
+    <sec id="discussion">
+      <title>7 Discussion</title>
+      <p>We have conducted a clinical trial to evaluate the effectiveness of
   a new approach to median sternotomy in reducing the incidence of
   pleural cavity opening. Other studies have shown that median
   sternotomy can lead to complications such as pneumothorax and
   hemothorax, which can significantly impact postoperative
   outcomes(<xref alt="Gullu et al. 2009" rid="ref-gullu2009" ref-type="bibr">Gullu
   et al. 2009</xref>).</p>
-  <p>The results of this study suggest that the new approach may be
+      <p>The results of this study suggest that the new approach may be
   beneficial in improving postoperative outcomes. There are several
   limitations to this study, including the small sample size and the
   single-center design.</p>
-</sec>
-<sec id="acknowledgements">
-  <title>8 Acknowledgements</title>
-  <p>This study was supported by institutional committee. The authors
+    </sec>
+    <sec id="acknowledgements">
+      <title>8 Acknowledgements</title>
+      <p>This study was supported by institutional committee. The authors
   would like to thank all the patients who participated in this study
   and the medical staff for their support.</p>
-</sec>
-</body>
-
-<back>
-<ref-list>
-  <title>References</title>
-  <ref id="ref-angelini1989">
-    <element-citation publication-type="article-journal">
-      <person-group person-group-type="author">
-        <name><surname>Angelini</surname><given-names>G. D.</given-names></name>
-        <name><surname>Newby</surname><given-names>A. C.</given-names></name>
-      </person-group>
-      <article-title>The future of saphenous vein as a coronary artery bypass conduit</article-title>
-      <source>European Heart Journal</source>
-      <year iso-8601-date="1989-03">1989</year><month>03</month>
-      <volume>10</volume>
-      <issue>3</issue>
-      <pub-id pub-id-type="doi">10.1093/oxfordjournals.eurheartj.a059476</pub-id>
-      <fpage>273</fpage>
-      <lpage>280</lpage>
-    </element-citation>
-  </ref>
-  <ref id="ref-gullu2009">
-    <element-citation publication-type="article-journal">
-      <person-group person-group-type="author">
-        <name><surname>Gullu</surname><given-names>Ahmet Umit</given-names></name>
-        <name><surname>Ekinci</surname><given-names>Abdurrahman</given-names></name>
-        <name><surname>Sensoz</surname><given-names>Yavuz</given-names></name>
-        <name><surname>Kızılay</surname><given-names>Mehmet</given-names></name>
-        <name><surname>Senay</surname><given-names>Sahin</given-names></name>
-        <name><surname>Arnaz</surname><given-names>Ahmet</given-names></name>
-        <name><surname>Coruh</surname><given-names>Turkan</given-names></name>
-        <name><surname>Ates</surname><given-names>Mehmet</given-names></name>
-        <name><surname>Akcar</surname><given-names>Murat</given-names></name>
-      </person-group>
-      <article-title>Preserved Pleural Integrity Provides Better Respiratory Function and Pain Score after Coronary Surgery</article-title>
-      <source>Journal of Cardiac Surgery</source>
-      <year iso-8601-date="2009-07">2009</year><month>07</month>
-      <volume>24</volume>
-      <issue>4</issue>
-      <uri>http://dx.doi.org/10.1111/j.1540-8191.2008.00734.x</uri>
-      <pub-id pub-id-type="doi">10.1111/j.1540-8191.2008.00734.x</pub-id>
-      <fpage>374</fpage>
-      <lpage>378</lpage>
-    </element-citation>
-  </ref>
-</ref-list>
-</back>
-
-<sub-article article-type="notebook" id="nb-15-nb-article">
-<front-stub>
-<title-group>
-<article-title>Clinical Trial On Pleural Cavity Opening During Median
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="ref-angelini1989">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Angelini</surname>
+              <given-names>G. D.</given-names>
+            </name>
+            <name>
+              <surname>Newby</surname>
+              <given-names>A. C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The future of saphenous vein as a coronary artery bypass conduit</article-title>
+          <source>European Heart Journal</source>
+          <year iso-8601-date="1989-03">1989</year>
+          <month>03</month>
+          <volume>10</volume>
+          <issue>3</issue>
+          <pub-id pub-id-type="doi">10.1093/oxfordjournals.eurheartj.a059476</pub-id>
+          <fpage>273</fpage>
+          <lpage>280</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-gullu2009">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gullu</surname>
+              <given-names>Ahmet Umit</given-names>
+            </name>
+            <name>
+              <surname>Ekinci</surname>
+              <given-names>Abdurrahman</given-names>
+            </name>
+            <name>
+              <surname>Sensoz</surname>
+              <given-names>Yavuz</given-names>
+            </name>
+            <name>
+              <surname>Kızılay</surname>
+              <given-names>Mehmet</given-names>
+            </name>
+            <name>
+              <surname>Senay</surname>
+              <given-names>Sahin</given-names>
+            </name>
+            <name>
+              <surname>Arnaz</surname>
+              <given-names>Ahmet</given-names>
+            </name>
+            <name>
+              <surname>Coruh</surname>
+              <given-names>Turkan</given-names>
+            </name>
+            <name>
+              <surname>Ates</surname>
+              <given-names>Mehmet</given-names>
+            </name>
+            <name>
+              <surname>Akcar</surname>
+              <given-names>Murat</given-names>
+            </name>
+          </person-group>
+          <article-title>Preserved Pleural Integrity Provides Better Respiratory Function and Pain Score after Coronary Surgery</article-title>
+          <source>Journal of Cardiac Surgery</source>
+          <year iso-8601-date="2009-07">2009</year>
+          <month>07</month>
+          <volume>24</volume>
+          <issue>4</issue>
+          <uri>http://dx.doi.org/10.1111/j.1540-8191.2008.00734.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1540-8191.2008.00734.x</pub-id>
+          <fpage>374</fpage>
+          <lpage>378</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <sub-article article-type="notebook" id="nb-7-nb-article">
+    <front-stub>
+      <title-group>
+        <article-title>Clinical Trial On Pleural Cavity Opening During Median
 Sternotomy</article-title>
-</title-group>
-<contrib-group>
-<contrib contrib-type="author" corresp="yes">
-<contrib-id contrib-id-type="orcid">0000-0001-6005-472X</contrib-id>
-<name>
-<surname>Rafik Margaryan</surname>
-<given-names>PhD</given-names>
-</name>
-<string-name>Rafik Margaryan, MD, PhD</string-name>
-
-<email>margaryan@ftgm.it</email>
-<role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
-<role vocab="https://credit.niso.org" vocab-term="project
-administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">0000-0001-6005-472X</contrib-id>
+          <name>
+            <surname>Rafik Margaryan</surname>
+            <given-names>PhD</given-names>
+          </name>
+          <string-name>Rafik Margaryan, MD, PhD</string-name>
+          <email>margaryan@ftgm.it</email>
+          <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="https://credit.niso.org" vocab-term="project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project
 administration</role>
-<role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
-<role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
-<xref ref-type="aff" rid="aff-1-nb-article">a</xref>
-<xref ref-type="corresp" rid="cor-1-nb-article">&#x002A;</xref>
-</contrib>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">0000-0003-4240-0099</contrib-id>
-<name>
-<surname>Giacomo Bianchi</surname>
-<given-names>PhD</given-names>
-</name>
-<string-name>Giacomo Bianchi, MD, PhD</string-name>
-
-<role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
-<role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
-<role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
-<xref ref-type="aff" rid="aff-2-nb-article">b</xref>
-</contrib>
-</contrib-group>
-<aff id="aff-1-nb-article">
-<institution-wrap>
-<institution>KGB, Moscow</institution>
-</institution-wrap>
-
-
-
-
-
-
-
-</aff>
-<aff id="aff-2-nb-article">
-<institution-wrap>
-<institution>FBI, Washington</institution>
-</institution-wrap>
-
-
-
-
-
-
-
-</aff>
-<author-notes>
-<corresp id="cor-1-nb-article">margaryan@ftgm.it</corresp>
-</author-notes>
-<abstract>
-<p>Clinicsl Trials are the backbone of the modern medicine. They are the
+          <role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+          <xref ref-type="corresp" rid="cor-1-nb-article">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">0000-0003-4240-0099</contrib-id>
+          <name>
+            <surname>Giacomo Bianchi</surname>
+            <given-names>PhD</given-names>
+          </name>
+          <string-name>Giacomo Bianchi, MD, PhD</string-name>
+          <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <xref ref-type="aff" rid="aff-2-nb-article">b</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1-nb-article">
+        <institution-wrap>
+          <institution>KGB, Moscow</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-2-nb-article">
+        <institution-wrap>
+          <institution>FBI, Washington</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1-nb-article">margaryan@ftgm.it</corresp>
+      </author-notes>
+      <abstract>
+        <p>Clinicsl Trials are the backbone of the modern medicine. They are the
 only way to test securly a hypothesis and to put out an evidence based
 medicine. In this paper we will discuss the first and second stage of a
 clinical trial on how to make sternotomy without opening plerual
 cavities.</p>
-</abstract>
-</front-stub>
-
-<body>
-<sec specific-use="notebook-content">
-<code language="r script">library(tidyverse)</code>
-<boxed-text>
-  <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+      </abstract>
+    </front-stub>
+    <body>
+      <sec specific-use="notebook-content">
+        <code language="r script">library(tidyverse)</code>
+        <boxed-text>
+          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
 ✔ forcats   1.0.0     ✔ stringr   1.5.1
 ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
@@ -541,25 +570,25 @@ cavities.</p>
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
-</boxed-text>
-<code language="r script">load(&quot;data/data.RData&quot;)
+        </boxed-text>
+        <code language="r script">load("data/data.RData")
 library(googlesheets4)
 library(gtsummary)
 library(dplyr)
 library(ggthemes)
 library(ggstatsplot)</code>
-<boxed-text>
-  <preformat>You can cite this package as:
+        <boxed-text>
+          <preformat>You can cite this package as:
      Patil, I. (2021). Visualizations with statistical details: The 'ggstatsplot' approach.
      Journal of Open Source Software, 6(61), 3167, doi:10.21105/joss.03167</preformat>
-</boxed-text>
-<code language="r script">library(raffdoc)
+        </boxed-text>
+        <code language="r script">library(raffdoc)
 df &lt;- bind_rows(first_stage_data_raw, second_stage_data_raw)
-df &lt;- df |&gt; mutate(trt = factor(trt, labels = c(&quot;Experimental&quot;, &quot;Control&quot;)))</code>
-</sec>
-<sec id="introduction-nb-article">
-  <title>1 Introduction</title>
-  <p>The median sternotomy is a common surgical approach used in cardiac
+df &lt;- df |&gt; mutate(trt = factor(trt, labels = c("Experimental", "Control")))</code>
+      </sec>
+      <sec id="introduction-nb-article">
+        <title>1 Introduction</title>
+        <p>The median sternotomy is a common surgical approach used in cardiac
   surgery. It provides access to the heart and great vessels, allowing
   for various procedures such as coronary artery bypass grafting (CABG),
   valve repair or replacement, and aortic
@@ -568,10 +597,10 @@ df &lt;- df |&gt; mutate(trt = factor(trt, labels = c(&quot;Experimental&quot;, 
   median sternotomy is the opening of the pleural cavities, which can
   lead to postoperative complications such as pneumothorax, hemothorax,
   and respiratory distress.</p>
-</sec>
-<sec id="sec-data-methods-nb-article">
-  <title>2 Material &amp; Methods</title>
-  <p>Patients were randomly assigned to two groups: the experimental
+      </sec>
+      <sec id="sec-data-methods-nb-article">
+        <title>2 Material &amp; Methods</title>
+        <p>Patients were randomly assigned to two groups: the experimental
   group, which underwent median sternotomy with lungs down 10 second and
   two thorax compression, and the control group without this maneuver.
   The primary outcome was the incidence of pleural cavity opening given
@@ -581,9 +610,9 @@ df &lt;- df |&gt; mutate(trt = factor(trt, labels = c(&quot;Experimental&quot;, 
   surgical details, and postoperative outcomes. The data was analyzed
   using statistical software to compare the outcomes between the two
   groups.</p>
-  <sec id="statistical-inference-nb-article">
-    <title>2.1 Statistical Inference</title>
-    <p>All data was collected prospectively by multiple operators in a
+        <sec id="statistical-inference-nb-article">
+          <title>2.1 Statistical Inference</title>
+          <p>All data was collected prospectively by multiple operators in a
     shared single file with version control. The all manuscript was
     written using Quarto Manuscript writing system with R programming
     incorporated. The article is published using the github pages on
@@ -591,28 +620,20 @@ df &lt;- df |&gt; mutate(trt = factor(trt, labels = c(&quot;Experimental&quot;, 
     on
     <ext-link ext-link-type="uri" xlink:href="https://github.com/raffdoc/manuscript-template">github
     page</ext-link>.</p>
-  </sec>
-</sec>
-<sec id="results-nb-article">
-  <title>3 Results</title>
-  <p>There were 1 (2.272727%) patient with hospital mortality in the
+        </sec>
+      </sec>
+      <sec id="results-nb-article">
+        <title>3 Results</title>
+        <p>There were 1 (2.272727%) patient with hospital mortality in the
   control group and and none in experimental group (p = 0.32). The mean
   age of patients in the experimental group was 67.9
-  <inline-formula><alternatives>
-  <tex-math><![CDATA[\pm]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
+  <inline-formula><alternatives><tex-math><![CDATA[\pm]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
   5.6 years, while in the control group it was 69.6
-  <inline-formula><alternatives>
-  <tex-math><![CDATA[\pm]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
+  <inline-formula><alternatives><tex-math><![CDATA[\pm]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
   6.0 years (p = 0.18). The body mass index (BMI) was also compared
   between the two groups, with a mean BMI of 31.0
-  <inline-formula><alternatives>
-  <tex-math><![CDATA[\pm]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
-  6.0 in the experimental group and 30.8 <inline-formula><alternatives>
-  <tex-math><![CDATA[\pm]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
+  <inline-formula><alternatives><tex-math><![CDATA[\pm]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
+  6.0 in the experimental group and 30.8 <inline-formula><alternatives><tex-math><![CDATA[\pm]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>±</mml:mi></mml:math></alternatives></inline-formula>
   6.9 in the control group
   <xref alt="Figure 2" rid="fig-bmi-nb-article">Figure 2</xref>. The results showed
   that the experimental group had a lower incidence of pleural cavity
@@ -620,52 +641,56 @@ df &lt;- df |&gt; mutate(trt = factor(trt, labels = c(&quot;Experimental&quot;, 
   <xref alt="Figure 1" rid="fig-pl-open-nb-article">Figure 1</xref>. The length of
   hospital stay was also shorter in the experimental group, indicating a
   potential benefit of the new approach.</p>
-</sec>
-<sec id="conclusion-nb-article">
-  <title>4 Conclusion</title>
-  <p>The results of this study suggest that the new approach to median
+      </sec>
+      <sec id="conclusion-nb-article">
+        <title>4 Conclusion</title>
+        <p>The results of this study suggest that the new approach to median
   sternotomy with lungs down 10 second and two thorax compression may
   reduce the incidence of pleural cavity opening and improve
   postoperative outcomes. Further studies with larger cohort and wider
   patients’ population group are needed to confirm these findings and
   evaluate the long-term effects of this technique.</p>
-</sec>
-<sec id="figures-nb-article">
-  <title>5 Figures</title>
-  <sec id="cell-fig-pl-open-nb-article" specific-use="notebook-content">
-  <code language="r script">ggbarstats(
+      </sec>
+      <sec id="figures-nb-article">
+        <title>5 Figures</title>
+        <sec id="cell-fig-pl-open-nb-article" specific-use="notebook-content">
+          <code language="r script">ggbarstats(
   data         = df,
   x            = trt,
   y            = outcome,
-  package      = &quot;wesanderson&quot;,
-  palette      = &quot;Darjeeling2&quot; # ,
+  package      = "wesanderson",
+  palette      = "Darjeeling2" # ,
   # ggtheme      = ggthemes::theme_tufte(base_size = 12)
 )</code>
-  <fig id="fig-pl-open-nb-article">
-    <caption><p>Figure 1: Pleural cavity opening</p></caption>
-    <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-pl-open-1.png" />
-  </fig>
-  </sec>
-  <sec id="cell-fig-bmi-nb-article" specific-use="notebook-content">
-  <code language="r script">ggbetweenstats(
+          <fig id="fig-pl-open-nb-article">
+            <caption>
+              <p>Figure 1: Pleural cavity opening</p>
+            </caption>
+            <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-pl-open-1.png"/>
+          </fig>
+        </sec>
+        <sec id="cell-fig-bmi-nb-article" specific-use="notebook-content">
+          <code language="r script">ggbetweenstats(
   data = df,
   x = trt,
   y = bmi,
-  pairwise.display = &quot;p-value&quot;,
-  p.adjust.method = &quot;bonferroni&quot;,
+  pairwise.display = "p-value",
+  p.adjust.method = "bonferroni",
   var.equal = TRUE,
-  title = &quot;BMI by treatment group&quot;
+  title = "BMI by treatment group"
 )</code>
-  <fig id="fig-bmi-nb-article">
-    <caption><p>Figure 2: BMI by treatment group</p></caption>
-    <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-bmi-1.png" />
-  </fig>
-  </sec>
-</sec>
-<sec id="tables-nb-article">
-  <title>6 Tables</title>
-  <sec specific-use="notebook-content">
-  <code language="r script">theme_gtsummary_journal(set_theme = &quot;nejm&quot;)
+          <fig id="fig-bmi-nb-article">
+            <caption>
+              <p>Figure 2: BMI by treatment group</p>
+            </caption>
+            <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-bmi-1.png"/>
+          </fig>
+        </sec>
+      </sec>
+      <sec id="tables-nb-article">
+        <title>6 Tables</title>
+        <sec specific-use="notebook-content">
+          <code language="r script">theme_gtsummary_journal(set_theme = "nejm")
 
 df |&gt;
   select(trt, outcome, bmi, diabetis, 
@@ -675,297 +700,386 @@ df |&gt;
   tbl_summary(
     by = trt,
     label = list(
-      outcome ~ &quot;Pleural cavity opening&quot;,
-      bmi ~ &quot;Body Mass Index&quot;,
-      diabetis ~ &quot;Diabetis&quot;
+      outcome ~ "Pleural cavity opening",
+      bmi ~ "Body Mass Index",
+      diabetis ~ "Diabetis"
     ),
-    statistic = all_continuous() ~ &quot;{mean} ({sd})&quot;,
-    missing_text = &quot;Missing&quot;
+    statistic = all_continuous() ~ "{mean} ({sd})",
+    missing_text = "Missing"
   ) |&gt;
   add_p() |&gt;
   add_overall()</code>
-  <boxed-text>
-    <preformat>The following errors were returned during `add_p()`:
-✖ For variable `age` (`trt`) and &quot;p.value&quot; statistic: The package &quot;cardx&quot; (&gt;=
+          <boxed-text>
+            <preformat>The following errors were returned during `add_p()`:
+✖ For variable `age` (`trt`) and "p.value" statistic: The package "cardx" (&gt;=
   0.2.3) is required.
-✖ For variable `bmi` (`trt`) and &quot;p.value&quot; statistic: The package &quot;cardx&quot; (&gt;=
+✖ For variable `bmi` (`trt`) and "p.value" statistic: The package "cardx" (&gt;=
   0.2.3) is required.
-✖ For variable `copd` (`trt`) and &quot;p.value&quot; statistic: The package &quot;cardx&quot; (&gt;=
+✖ For variable `copd` (`trt`) and "p.value" statistic: The package "cardx" (&gt;=
   0.2.3) is required.
-✖ For variable `diabetis` (`trt`) and &quot;p.value&quot; statistic: The package &quot;cardx&quot;
+✖ For variable `diabetis` (`trt`) and "p.value" statistic: The package "cardx"
   (&gt;= 0.2.3) is required.
-✖ For variable `hospital_mortality` (`trt`) and &quot;p.value&quot; statistic: The
-  package &quot;cardx&quot; (&gt;= 0.2.3) is required.
-✖ For variable `hospital_stay` (`trt`) and &quot;p.value&quot; statistic: The package
-  &quot;cardx&quot; (&gt;= 0.2.3) is required.
-✖ For variable `outcome` (`trt`) and &quot;p.value&quot; statistic: The package &quot;cardx&quot;
+✖ For variable `hospital_mortality` (`trt`) and "p.value" statistic: The
+  package "cardx" (&gt;= 0.2.3) is required.
+✖ For variable `hospital_stay` (`trt`) and "p.value" statistic: The package
+  "cardx" (&gt;= 0.2.3) is required.
+✖ For variable `outcome` (`trt`) and "p.value" statistic: The package "cardx"
   (&gt;= 0.2.3) is required.
-✖ For variable `sex` (`trt`) and &quot;p.value&quot; statistic: The package &quot;cardx&quot; (&gt;=
+✖ For variable `sex` (`trt`) and "p.value" statistic: The package "cardx" (&gt;=
   0.2.3) is required.
-✖ For variable `steroids` (`trt`) and &quot;p.value&quot; statistic: The package &quot;cardx&quot;
+✖ For variable `steroids` (`trt`) and "p.value" statistic: The package "cardx"
   (&gt;= 0.2.3) is required.</preformat>
-  </boxed-text>
-  <fig id="tbl-demo-nb-article">
-    <caption><p>Table 1: Demographics of the first stage</p></caption>
-    <table-wrap>
-      <table>
-        <colgroup>
-          <col width="20%" />
-          <col width="20%" />
-          <col width="20%" />
-          <col width="20%" />
-          <col width="20%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th id="label-nb-article" scope="col">Characteristic</th>
-            <th id="stat_0-nb-article" scope="col">Overall N =
+          </boxed-text>
+          <fig id="tbl-demo-nb-article">
+            <caption>
+              <p>Table 1: Demographics of the first stage</p>
+            </caption>
+            <table-wrap>
+              <table>
+                <colgroup>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th id="label-nb-article" scope="col">Characteristic</th>
+                    <th id="stat_0-nb-article" scope="col">Overall N =
             90<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-            <th id="stat_1-nb-article" scope="col">Experimental N =
+                    <th id="stat_1-nb-article" scope="col">Experimental N =
             46<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-            <th id="stat_2-nb-article" scope="col">Control N =
+                    <th id="stat_2-nb-article" scope="col">Control N =
             44<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-            <th id="p.value-nb-article" scope="col">p-value</th>
-          </tr>
-        </thead>
-        <tfoot>
-          <tr>
-            <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
+                    <th id="p.value-nb-article" scope="col">p-value</th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
             n (%); Mean (SD)</td>
-          </tr>
-        </tfoot>
-        <tbody>
-          <tr>
-            <td headers="label">Pleural cavity opening</td>
-            <td headers="stat_0"><break/></td>
-            <td headers="stat_1"><break/></td>
-            <td headers="stat_2"><break/></td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    close</td>
-            <td headers="stat_0">48 (53%)</td>
-            <td headers="stat_1">30 (65%)</td>
-            <td headers="stat_2">18 (41%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    open</td>
-            <td headers="stat_0">42 (47%)</td>
-            <td headers="stat_1">16 (35%)</td>
-            <td headers="stat_2">26 (59%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">Body Mass Index</td>
-            <td headers="stat_0">31 (6)</td>
-            <td headers="stat_1">31 (6)</td>
-            <td headers="stat_2">31 (7)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">Diabetis</td>
-            <td headers="stat_0">36 (40%)</td>
-            <td headers="stat_1">20 (43%)</td>
-            <td headers="stat_2">16 (36%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">copd</td>
-            <td headers="stat_0">21 (23%)</td>
-            <td headers="stat_1">11 (24%)</td>
-            <td headers="stat_2">10 (23%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">steroids</td>
-            <td headers="stat_0">12 (13%)</td>
-            <td headers="stat_1">3 (6.5%)</td>
-            <td headers="stat_2">9 (20%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">hospital_mortality</td>
-            <td headers="stat_0">1 (1.1%)</td>
-            <td headers="stat_1">0 (0%)</td>
-            <td headers="stat_2">1 (2.3%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">hospital_stay</td>
-            <td headers="stat_0"><break/></td>
-            <td headers="stat_1"><break/></td>
-            <td headers="stat_2"><break/></td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    4</td>
-            <td headers="stat_0">6 (6.7%)</td>
-            <td headers="stat_1">4 (8.7%)</td>
-            <td headers="stat_2">2 (4.5%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    5</td>
-            <td headers="stat_0">30 (33%)</td>
-            <td headers="stat_1">8 (17%)</td>
-            <td headers="stat_2">22 (50%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    6</td>
-            <td headers="stat_0">12 (13%)</td>
-            <td headers="stat_1">8 (17%)</td>
-            <td headers="stat_2">4 (9.1%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    7</td>
-            <td headers="stat_0">18 (20%)</td>
-            <td headers="stat_1">9 (20%)</td>
-            <td headers="stat_2">9 (20%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    8</td>
-            <td headers="stat_0">15 (17%)</td>
-            <td headers="stat_1">10 (22%)</td>
-            <td headers="stat_2">5 (11%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    9</td>
-            <td headers="stat_0">6 (6.7%)</td>
-            <td headers="stat_1">5 (11%)</td>
-            <td headers="stat_2">1 (2.3%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    10</td>
-            <td headers="stat_0">3 (3.3%)</td>
-            <td headers="stat_1">2 (4.3%)</td>
-            <td headers="stat_2">1 (2.3%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">age</td>
-            <td headers="stat_0">68.7 (5.8)</td>
-            <td headers="stat_1">67.9 (5.6)</td>
-            <td headers="stat_2">69.6 (6.0)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">sex</td>
-            <td headers="stat_0"><break/></td>
-            <td headers="stat_1"><break/></td>
-            <td headers="stat_2"><break/></td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    female</td>
-            <td headers="stat_0">33 (37%)</td>
-            <td headers="stat_1">12 (26%)</td>
-            <td headers="stat_2">21 (48%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    male</td>
-            <td headers="stat_0">57 (63%)</td>
-            <td headers="stat_1">34 (74%)</td>
-            <td headers="stat_2">23 (52%)</td>
-            <td headers="p.value"><break/></td>
-          </tr>
-        </tbody>
-      </table>
-    </table-wrap>
-  </fig>
-  </sec>
-</sec>
-<sec id="discussion-nb-article">
-  <title>7 Discussion</title>
-  <p>We have conducted a clinical trial to evaluate the effectiveness of
+                  </tr>
+                </tfoot>
+                <tbody>
+                  <tr>
+                    <td headers="label">Pleural cavity opening</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                    <td headers="stat_1">
+                      <break/>
+                    </td>
+                    <td headers="stat_2">
+                      <break/>
+                    </td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    close</td>
+                    <td headers="stat_0">48 (53%)</td>
+                    <td headers="stat_1">30 (65%)</td>
+                    <td headers="stat_2">18 (41%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    open</td>
+                    <td headers="stat_0">42 (47%)</td>
+                    <td headers="stat_1">16 (35%)</td>
+                    <td headers="stat_2">26 (59%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">Body Mass Index</td>
+                    <td headers="stat_0">31 (6)</td>
+                    <td headers="stat_1">31 (6)</td>
+                    <td headers="stat_2">31 (7)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">Diabetis</td>
+                    <td headers="stat_0">36 (40%)</td>
+                    <td headers="stat_1">20 (43%)</td>
+                    <td headers="stat_2">16 (36%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">copd</td>
+                    <td headers="stat_0">21 (23%)</td>
+                    <td headers="stat_1">11 (24%)</td>
+                    <td headers="stat_2">10 (23%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">steroids</td>
+                    <td headers="stat_0">12 (13%)</td>
+                    <td headers="stat_1">3 (6.5%)</td>
+                    <td headers="stat_2">9 (20%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">hospital_mortality</td>
+                    <td headers="stat_0">1 (1.1%)</td>
+                    <td headers="stat_1">0 (0%)</td>
+                    <td headers="stat_2">1 (2.3%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">hospital_stay</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                    <td headers="stat_1">
+                      <break/>
+                    </td>
+                    <td headers="stat_2">
+                      <break/>
+                    </td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    4</td>
+                    <td headers="stat_0">6 (6.7%)</td>
+                    <td headers="stat_1">4 (8.7%)</td>
+                    <td headers="stat_2">2 (4.5%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    5</td>
+                    <td headers="stat_0">30 (33%)</td>
+                    <td headers="stat_1">8 (17%)</td>
+                    <td headers="stat_2">22 (50%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    6</td>
+                    <td headers="stat_0">12 (13%)</td>
+                    <td headers="stat_1">8 (17%)</td>
+                    <td headers="stat_2">4 (9.1%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    7</td>
+                    <td headers="stat_0">18 (20%)</td>
+                    <td headers="stat_1">9 (20%)</td>
+                    <td headers="stat_2">9 (20%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    8</td>
+                    <td headers="stat_0">15 (17%)</td>
+                    <td headers="stat_1">10 (22%)</td>
+                    <td headers="stat_2">5 (11%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    9</td>
+                    <td headers="stat_0">6 (6.7%)</td>
+                    <td headers="stat_1">5 (11%)</td>
+                    <td headers="stat_2">1 (2.3%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    10</td>
+                    <td headers="stat_0">3 (3.3%)</td>
+                    <td headers="stat_1">2 (4.3%)</td>
+                    <td headers="stat_2">1 (2.3%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">age</td>
+                    <td headers="stat_0">68.7 (5.8)</td>
+                    <td headers="stat_1">67.9 (5.6)</td>
+                    <td headers="stat_2">69.6 (6.0)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">sex</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                    <td headers="stat_1">
+                      <break/>
+                    </td>
+                    <td headers="stat_2">
+                      <break/>
+                    </td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    female</td>
+                    <td headers="stat_0">33 (37%)</td>
+                    <td headers="stat_1">12 (26%)</td>
+                    <td headers="stat_2">21 (48%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    male</td>
+                    <td headers="stat_0">57 (63%)</td>
+                    <td headers="stat_1">34 (74%)</td>
+                    <td headers="stat_2">23 (52%)</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </fig>
+        </sec>
+      </sec>
+      <sec id="discussion-nb-article">
+        <title>7 Discussion</title>
+        <p>We have conducted a clinical trial to evaluate the effectiveness of
   a new approach to median sternotomy in reducing the incidence of
   pleural cavity opening. Other studies have shown that median
   sternotomy can lead to complications such as pneumothorax and
   hemothorax, which can significantly impact postoperative
   outcomes(<xref alt="Gullu et al. 2009" rid="ref-gullu2009-nb-article" ref-type="bibr">Gullu
   et al. 2009</xref>).</p>
-  <p>The results of this study suggest that the new approach may be
+        <p>The results of this study suggest that the new approach may be
   beneficial in improving postoperative outcomes. There are several
   limitations to this study, including the small sample size and the
   single-center design.</p>
-</sec>
-<sec id="acknowledgements-nb-article">
-  <title>8 Acknowledgements</title>
-  <p>This study was supported by institutional committee. The authors
+      </sec>
+      <sec id="acknowledgements-nb-article">
+        <title>8 Acknowledgements</title>
+        <p>This study was supported by institutional committee. The authors
   would like to thank all the patients who participated in this study
   and the medical staff for their support.</p>
-</sec>
-</body>
-
-
-
-<back>
-<ref-list>
-  <title>References</title>
-  <ref id="ref-angelini1989-nb-article">
-    <element-citation publication-type="article-journal">
-      <person-group person-group-type="author">
-        <name><surname>Angelini</surname><given-names>G. D.</given-names></name>
-        <name><surname>Newby</surname><given-names>A. C.</given-names></name>
-      </person-group>
-      <article-title>The future of saphenous vein as a coronary artery bypass conduit</article-title>
-      <source>European Heart Journal</source>
-      <year iso-8601-date="1989-03">1989</year><month>03</month>
-      <volume>10</volume>
-      <issue>3</issue>
-      <pub-id pub-id-type="doi">10.1093/oxfordjournals.eurheartj.a059476</pub-id>
-      <fpage>273</fpage>
-      <lpage>280</lpage>
-    </element-citation>
-  </ref>
-  <ref id="ref-gullu2009-nb-article">
-    <element-citation publication-type="article-journal">
-      <person-group person-group-type="author">
-        <name><surname>Gullu</surname><given-names>Ahmet Umit</given-names></name>
-        <name><surname>Ekinci</surname><given-names>Abdurrahman</given-names></name>
-        <name><surname>Sensoz</surname><given-names>Yavuz</given-names></name>
-        <name><surname>Kızılay</surname><given-names>Mehmet</given-names></name>
-        <name><surname>Senay</surname><given-names>Sahin</given-names></name>
-        <name><surname>Arnaz</surname><given-names>Ahmet</given-names></name>
-        <name><surname>Coruh</surname><given-names>Turkan</given-names></name>
-        <name><surname>Ates</surname><given-names>Mehmet</given-names></name>
-        <name><surname>Akcar</surname><given-names>Murat</given-names></name>
-      </person-group>
-      <article-title>Preserved Pleural Integrity Provides Better Respiratory Function and Pain Score after Coronary Surgery</article-title>
-      <source>Journal of Cardiac Surgery</source>
-      <year iso-8601-date="2009-07">2009</year><month>07</month>
-      <volume>24</volume>
-      <issue>4</issue>
-      <uri>http://dx.doi.org/10.1111/j.1540-8191.2008.00734.x</uri>
-      <pub-id pub-id-type="doi">10.1111/j.1540-8191.2008.00734.x</pub-id>
-      <fpage>374</fpage>
-      <lpage>378</lpage>
-    </element-citation>
-  </ref>
-</ref-list>
-</back>
-
-
-</sub-article>
-<sub-article article-type="notebook" id="nb-4-nb-1">
-<front-stub>
-<title-group>
-<article-title>First Stage</article-title>
-</title-group>
-</front-stub>
-
-<body>
-<sec specific-use="notebook-content">
-<code language="r script">library(tidyverse)
+      </sec>
+    </body>
+    <back>
+      <ref-list>
+        <title>References</title>
+        <ref id="ref-angelini1989-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Angelini</surname>
+                <given-names>G. D.</given-names>
+              </name>
+              <name>
+                <surname>Newby</surname>
+                <given-names>A. C.</given-names>
+              </name>
+            </person-group>
+            <article-title>The future of saphenous vein as a coronary artery bypass conduit</article-title>
+            <source>European Heart Journal</source>
+            <year iso-8601-date="1989-03">1989</year>
+            <month>03</month>
+            <volume>10</volume>
+            <issue>3</issue>
+            <pub-id pub-id-type="doi">10.1093/oxfordjournals.eurheartj.a059476</pub-id>
+            <fpage>273</fpage>
+            <lpage>280</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-gullu2009-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Gullu</surname>
+                <given-names>Ahmet Umit</given-names>
+              </name>
+              <name>
+                <surname>Ekinci</surname>
+                <given-names>Abdurrahman</given-names>
+              </name>
+              <name>
+                <surname>Sensoz</surname>
+                <given-names>Yavuz</given-names>
+              </name>
+              <name>
+                <surname>Kızılay</surname>
+                <given-names>Mehmet</given-names>
+              </name>
+              <name>
+                <surname>Senay</surname>
+                <given-names>Sahin</given-names>
+              </name>
+              <name>
+                <surname>Arnaz</surname>
+                <given-names>Ahmet</given-names>
+              </name>
+              <name>
+                <surname>Coruh</surname>
+                <given-names>Turkan</given-names>
+              </name>
+              <name>
+                <surname>Ates</surname>
+                <given-names>Mehmet</given-names>
+              </name>
+              <name>
+                <surname>Akcar</surname>
+                <given-names>Murat</given-names>
+              </name>
+            </person-group>
+            <article-title>Preserved Pleural Integrity Provides Better Respiratory Function and Pain Score after Coronary Surgery</article-title>
+            <source>Journal of Cardiac Surgery</source>
+            <year iso-8601-date="2009-07">2009</year>
+            <month>07</month>
+            <volume>24</volume>
+            <issue>4</issue>
+            <uri>http://dx.doi.org/10.1111/j.1540-8191.2008.00734.x</uri>
+            <pub-id pub-id-type="doi">10.1111/j.1540-8191.2008.00734.x</pub-id>
+            <fpage>374</fpage>
+            <lpage>378</lpage>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-2-nb-1">
+    <front-stub>
+      <title-group>
+        <article-title>First Stage</article-title>
+      </title-group>
+    </front-stub>
+    <body>
+      <sec specific-use="notebook-content">
+        <code language="r script">library(tidyverse)
 </code>
-<boxed-text>
-  <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+        <boxed-text>
+          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
 ✔ forcats   1.0.0     ✔ stringr   1.5.1
 ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
@@ -975,126 +1089,133 @@ df |&gt;
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
-</boxed-text>
-<code language="r script">library(googlesheets4)
+        </boxed-text>
+        <code language="r script">library(googlesheets4)
 library(gtsummary)
 library(ggplot2)
 library(ggstatsplot)
 </code>
-<boxed-text>
-  <preformat>You can cite this package as:
+        <boxed-text>
+          <preformat>You can cite this package as:
      Patil, I. (2021). Visualizations with statistical details: The 'ggstatsplot' approach.
      Journal of Open Source Software, 6(61), 3167, doi:10.21105/joss.03167</preformat>
-</boxed-text>
-</sec>
-<sec id="first-stage-report-nb-1">
-  <title>First stage report</title>
-  <sec specific-use="notebook-content">
-  <code language="r script">load(&quot;../data/data.RData&quot;)
+        </boxed-text>
+      </sec>
+      <sec id="first-stage-report-nb-1">
+        <title>First stage report</title>
+        <sec specific-use="notebook-content">
+          <code language="r script">load("../data/data.RData")
   </code>
-  </sec>
-  <sec specific-use="notebook-content">
-  <code language="r script">first_stage_data_raw |&gt;
+        </sec>
+        <sec specific-use="notebook-content">
+          <code language="r script">first_stage_data_raw |&gt;
   select(trt, outcome, bmi, diabetis) |&gt;
   tbl_summary() 
   </code>
-  <fig id="tbl-demo-stage1-nb-1">
-    <caption><p>Demographics of the first stage</p></caption>
-    <table-wrap>
-      <table>
-        <colgroup>
-          <col width="50%" />
-          <col width="50%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th id="label-nb-1" scope="col"><bold>Characteristic</bold></th>
-            <th id="stat_0-nb-1" scope="col"><bold>N =
-            30</bold><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-          </tr>
-        </thead>
-        <tfoot>
-          <tr>
-            <td colspan="2"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
+          <fig id="tbl-demo-stage1-nb-1">
+            <caption>
+              <p>Demographics of the first stage</p>
+            </caption>
+            <table-wrap>
+              <table>
+                <colgroup>
+                  <col width="50%"/>
+                  <col width="50%"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th id="label-nb-1" scope="col">
+                      <bold>Characteristic</bold>
+                    </th>
+                    <th id="stat_0-nb-1" scope="col">
+                      <bold>N =
+            30</bold>
+                      <named-content content-type="gt_footnote_marks">
+                        <sup>1</sup>
+                      </named-content>
+                    </th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
             n (%); Median (Q1, Q3)</td>
-          </tr>
-        </tfoot>
-        <tbody>
-          <tr>
-            <td headers="label">trt</td>
-            <td headers="stat_0"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    case</td>
-            <td headers="stat_0">15 (50%)</td>
-          </tr>
-          <tr>
-            <td headers="label">    control</td>
-            <td headers="stat_0">15 (50%)</td>
-          </tr>
-          <tr>
-            <td headers="label">outcome</td>
-            <td headers="stat_0"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    close</td>
-            <td headers="stat_0">17 (57%)</td>
-          </tr>
-          <tr>
-            <td headers="label">    open</td>
-            <td headers="stat_0">13 (43%)</td>
-          </tr>
-          <tr>
-            <td headers="label">bmi</td>
-            <td headers="stat_0">32 (26, 36)</td>
-          </tr>
-          <tr>
-            <td headers="label">diabetis</td>
-            <td headers="stat_0">12 (40%)</td>
-          </tr>
-        </tbody>
-      </table>
-    </table-wrap>
-  </fig>
-  </sec>
-  <sec id="cell-fig-bmi-first-stage-nb-1" specific-use="notebook-content">
-  <code language="r script">ggstatsplot::ggbetweenstats(
+                  </tr>
+                </tfoot>
+                <tbody>
+                  <tr>
+                    <td headers="label">trt</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    case</td>
+                    <td headers="stat_0">15 (50%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    control</td>
+                    <td headers="stat_0">15 (50%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">outcome</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    close</td>
+                    <td headers="stat_0">17 (57%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    open</td>
+                    <td headers="stat_0">13 (43%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">bmi</td>
+                    <td headers="stat_0">32 (26, 36)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">diabetis</td>
+                    <td headers="stat_0">12 (40%)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </fig>
+        </sec>
+        <sec id="cell-fig-bmi-first-stage-nb-1" specific-use="notebook-content">
+          <code language="r script">ggstatsplot::ggbetweenstats(
   data = first_stage_data_raw,
   x = trt,
   y = bmi,
-  pairwise.display = &quot;p-value&quot;,
-  p.adjust.method = &quot;bonferroni&quot;,
+  pairwise.display = "p-value",
+  p.adjust.method = "bonferroni",
   var.equal = TRUE,
-  title = &quot;BMI by treatment group&quot;
+  title = "BMI by treatment group"
 )
   </code>
-  <fig id="fig-bmi-first-stage-nb-1">
-    <graphic id="fig-bmi-first-stage-nb-1" mimetype="image" mime-subtype="png" xlink:href="clinical_trial_first_stage_files/figure-jats/fig-bmi-first-stage-1.png" />
-  </fig>
-  </sec>
-</sec>
-</body>
-
-
-
-<back>
+          <fig id="fig-bmi-first-stage-nb-1">
+            <graphic id="fig-bmi-first-stage-nb-1" mimetype="image" mime-subtype="png" xlink:href="clinical_trial_first_stage_files/figure-jats/fig-bmi-first-stage-1.png"/>
+          </fig>
+        </sec>
+      </sec>
+    </body>
+    <back>
 </back>
-
-
-</sub-article>
-<sub-article article-type="notebook" id="nb-8-nb-2">
-<front-stub>
-<title-group>
-<article-title>Second Stage</article-title>
-</title-group>
-</front-stub>
-
-<body>
-<sec specific-use="notebook-content">
-<code language="r script">library(tidyverse)
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-4-nb-2">
+    <front-stub>
+      <title-group>
+        <article-title>Second Stage</article-title>
+      </title-group>
+    </front-stub>
+    <body>
+      <sec specific-use="notebook-content">
+        <code language="r script">library(tidyverse)
 </code>
-<boxed-text>
-  <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+        <boxed-text>
+          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
 ✔ forcats   1.0.0     ✔ stringr   1.5.1
 ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
@@ -1104,106 +1225,113 @@ library(ggstatsplot)
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
-</boxed-text>
-<code language="r script">library(googlesheets4)
+        </boxed-text>
+        <code language="r script">library(googlesheets4)
 library(gtsummary)
 </code>
-</sec>
-<sec id="first-stage-report-nb-2">
-  <title>First stage report</title>
-  <sec specific-use="notebook-content">
-  <code language="r script">load(&quot;../data/data.RData&quot;)
+      </sec>
+      <sec id="first-stage-report-nb-2">
+        <title>First stage report</title>
+        <sec specific-use="notebook-content">
+          <code language="r script">load("../data/data.RData")
   </code>
-  </sec>
-  <sec specific-use="notebook-content">
-  <code language="r script">second_stage_data_raw |&gt;
+        </sec>
+        <sec specific-use="notebook-content">
+          <code language="r script">second_stage_data_raw |&gt;
   select(trt, outcome, bmi, diabetis) |&gt;
   tbl_summary() 
   </code>
-  <fig id="tbl-demo-stage2-nb-2">
-    <caption><p>Demographics of the second stage stage</p></caption>
-    <table-wrap>
-      <table>
-        <colgroup>
-          <col width="50%" />
-          <col width="50%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th id="label-nb-2" scope="col"><bold>Characteristic</bold></th>
-            <th id="stat_0-nb-2" scope="col"><bold>N =
-            60</bold><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-          </tr>
-        </thead>
-        <tfoot>
-          <tr>
-            <td colspan="2"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
+          <fig id="tbl-demo-stage2-nb-2">
+            <caption>
+              <p>Demographics of the second stage stage</p>
+            </caption>
+            <table-wrap>
+              <table>
+                <colgroup>
+                  <col width="50%"/>
+                  <col width="50%"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th id="label-nb-2" scope="col">
+                      <bold>Characteristic</bold>
+                    </th>
+                    <th id="stat_0-nb-2" scope="col">
+                      <bold>N =
+            60</bold>
+                      <named-content content-type="gt_footnote_marks">
+                        <sup>1</sup>
+                      </named-content>
+                    </th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
             n (%); Median (Q1, Q3)</td>
-          </tr>
-        </tfoot>
-        <tbody>
-          <tr>
-            <td headers="label">trt</td>
-            <td headers="stat_0"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    case</td>
-            <td headers="stat_0">30 (50%)</td>
-          </tr>
-          <tr>
-            <td headers="label">    control</td>
-            <td headers="stat_0">30 (50%)</td>
-          </tr>
-          <tr>
-            <td headers="label">outcome</td>
-            <td headers="stat_0"><break/></td>
-          </tr>
-          <tr>
-            <td headers="label">    close</td>
-            <td headers="stat_0">34 (57%)</td>
-          </tr>
-          <tr>
-            <td headers="label">    open</td>
-            <td headers="stat_0">26 (43%)</td>
-          </tr>
-          <tr>
-            <td headers="label">bmi</td>
-            <td headers="stat_0">32 (26, 36)</td>
-          </tr>
-          <tr>
-            <td headers="label">diabetis</td>
-            <td headers="stat_0">24 (40%)</td>
-          </tr>
-        </tbody>
-      </table>
-    </table-wrap>
-  </fig>
-  </sec>
-  <sec id="cell-fig-bmi-second-stage-nb-2" specific-use="notebook-content">
-  <code language="r script">ggstatsplot::ggbetweenstats(
+                  </tr>
+                </tfoot>
+                <tbody>
+                  <tr>
+                    <td headers="label">trt</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    case</td>
+                    <td headers="stat_0">30 (50%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    control</td>
+                    <td headers="stat_0">30 (50%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">outcome</td>
+                    <td headers="stat_0">
+                      <break/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    close</td>
+                    <td headers="stat_0">34 (57%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">    open</td>
+                    <td headers="stat_0">26 (43%)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">bmi</td>
+                    <td headers="stat_0">32 (26, 36)</td>
+                  </tr>
+                  <tr>
+                    <td headers="label">diabetis</td>
+                    <td headers="stat_0">24 (40%)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </fig>
+        </sec>
+        <sec id="cell-fig-bmi-second-stage-nb-2" specific-use="notebook-content">
+          <code language="r script">ggstatsplot::ggbetweenstats(
   data = second_stage_data_raw,
   x = trt,
   y = bmi,
-  pairwise.display = &quot;p-value&quot;,
-  p.adjust.method = &quot;bonferroni&quot;,
+  pairwise.display = "p-value",
+  p.adjust.method = "bonferroni",
   var.equal = TRUE,
-  title = &quot;BMI by treatment group&quot;
+  title = "BMI by treatment group"
 )
   </code>
-  <fig id="fig-bmi-second-stage-nb-2">
-    <graphic id="fig-bmi-second-stage-nb-2" mimetype="image" mime-subtype="png" xlink:href="clinical_trial_second_stage_files/figure-jats/fig-bmi-second-stage-1.png" />
-  </fig>
-  </sec>
-</sec>
-</body>
-
-
-
-<back>
+          <fig id="fig-bmi-second-stage-nb-2">
+            <graphic id="fig-bmi-second-stage-nb-2" mimetype="image" mime-subtype="png" xlink:href="clinical_trial_second_stage_files/figure-jats/fig-bmi-second-stage-1.png"/>
+          </fig>
+        </sec>
+      </sec>
+    </body>
+    <back>
 </back>
-
-
-</sub-article>
-<!-- (F2ED4C6E)[nb-3]:/home/runner/work/manuscript-template/manuscript-template/notebooks/gantt_chart.qmd -->
-
+  </sub-article>
+  <!-- (F2ED4C6E)[nb-3]:/home/rafik/R_Programming/manuscript-template/notebooks/gantt_chart.qmd -->
 </article>
