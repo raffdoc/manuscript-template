@@ -47,8 +47,11 @@ library(dplyr)
 library(ggthemes)
 library(ggstatsplot)
 library(raffdoc)
+library(survival)
+library(ggsurvfit)
 df <- bind_rows(first_stage_data_raw, second_stage_data_raw)
 df <- df |> mutate(trt = factor(trt, labels = c("Experimental", "Control")))
+
 ```
 
 ## Introduction
@@ -102,6 +105,22 @@ ggbetweenstats(
   title = "BMI by treatment group"
 )
 ```
+
+```{r}
+#| fig-cap: "Discharge probability"
+#| label: fig-surv
+
+survfit2(Surv(hospital_stay,rep(1, nrow(df)) ) ~ outcome, data = df) |> 
+  ggsurvfit() +
+  labs(
+    x = "Days to discharge",
+    y = "Overall discharge probablity probability"
+  ) +
+  add_risktable() +
+  add_pvalue() +
+  theme_tufte()
+```
+
 
 ## Tables
 

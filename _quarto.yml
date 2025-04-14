@@ -1,6 +1,7 @@
 project:
   type: manuscript
-
+manuscript:
+  code-links: binder
 execute:
   freeze: auto
 
