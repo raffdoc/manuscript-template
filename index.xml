@@ -61,10 +61,10 @@ administration</role>
       <author-notes>
         <corresp id="cor-1">margaryan@ftgm.it</corresp>
       </author-notes>
-      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-04-13">
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-04-14">
         <year>2025</year>
         <month>4</month>
-        <day>13</day>
+        <day>14</day>
       </pub-date>
       <history/>
       <abstract>
@@ -92,12 +92,6 @@ cavities.</p>
   median sternotomy is the opening of the pleural cavities, which can
   lead to postoperative complications such as pneumothorax, hemothorax,
   and respiratory distress.</p>
-      <fig>
-        <caption>
-          <p>Pleural Cavities</p>
-        </caption>
-        <graphic mimetype="image" mime-subtype="png" xlink:href="images/pleural_cavities.png"/>
-      </fig>
     </sec>
     <sec id="sec-data-methods">
       <title>2 Material &amp; Methods</title>
@@ -184,33 +178,20 @@ cavities.</p>
             </colgroup>
             <thead>
               <tr>
-                <th id="label" scope="col">
-                  <bold>Characteristic</bold>
-                </th>
-                <th id="stat_0" scope="col"><bold>Overall</bold><break/>N =
+                <th id="label" scope="col">Characteristic</th>
+                <th id="stat_0" scope="col">Overall N =
             90<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-                <th id="stat_1" scope="col"><bold>Experimental</bold><break/>N
-            =
+                <th id="stat_1" scope="col">Experimental N =
             46<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-                <th id="stat_2" scope="col"><bold>Control</bold><break/>N =
+                <th id="stat_2" scope="col">Control N =
             44<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-                <th id="p.value" scope="col">
-                  <bold>p-value</bold>
-                  <named-content content-type="gt_footnote_marks">
-                    <sup>2</sup>
-                  </named-content>
-                </th>
+                <th id="p.value" scope="col">p-value</th>
               </tr>
             </thead>
             <tfoot>
               <tr>
                 <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
             n (%); Mean (SD)</td>
-              </tr>
-              <tr>
-                <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>2</sup></named-content>
-            Pearson’s Chi-squared test; Wilcoxon rank sum test; Fisher’s
-            exact test</td>
               </tr>
             </tfoot>
             <tbody>
@@ -225,7 +206,9 @@ cavities.</p>
                 <td headers="stat_2">
                   <break/>
                 </td>
-                <td headers="p.value">0.021</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
               </tr>
               <tr>
                 <td headers="label">    close</td>
@@ -250,35 +233,45 @@ cavities.</p>
                 <td headers="stat_0">31 (6)</td>
                 <td headers="stat_1">31 (6)</td>
                 <td headers="stat_2">31 (7)</td>
-                <td headers="p.value">0.8</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
               </tr>
               <tr>
                 <td headers="label">Diabetis</td>
                 <td headers="stat_0">36 (40%)</td>
                 <td headers="stat_1">20 (43%)</td>
                 <td headers="stat_2">16 (36%)</td>
-                <td headers="p.value">0.5</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
               </tr>
               <tr>
                 <td headers="label">copd</td>
                 <td headers="stat_0">21 (23%)</td>
                 <td headers="stat_1">11 (24%)</td>
                 <td headers="stat_2">10 (23%)</td>
-                <td headers="p.value">0.9</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
               </tr>
               <tr>
                 <td headers="label">steroids</td>
                 <td headers="stat_0">12 (13%)</td>
                 <td headers="stat_1">3 (6.5%)</td>
                 <td headers="stat_2">9 (20%)</td>
-                <td headers="p.value">0.052</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
               </tr>
               <tr>
                 <td headers="label">hospital_mortality</td>
                 <td headers="stat_0">1 (1.1%)</td>
                 <td headers="stat_1">0 (0%)</td>
                 <td headers="stat_2">1 (2.3%)</td>
-                <td headers="p.value">0.5</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
               </tr>
               <tr>
                 <td headers="label">hospital_stay</td>
@@ -291,7 +284,9 @@ cavities.</p>
                 <td headers="stat_2">
                   <break/>
                 </td>
-                <td headers="p.value">0.032</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
               </tr>
               <tr>
                 <td headers="label">    4</td>
@@ -361,7 +356,9 @@ cavities.</p>
                 <td headers="stat_0">68.7 (5.8)</td>
                 <td headers="stat_1">67.9 (5.6)</td>
                 <td headers="stat_2">69.6 (6.0)</td>
-                <td headers="p.value">0.2</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
               </tr>
               <tr>
                 <td headers="label">sex</td>
@@ -374,7 +371,9 @@ cavities.</p>
                 <td headers="stat_2">
                   <break/>
                 </td>
-                <td headers="p.value">0.033</td>
+                <td headers="p.value">
+                  <break/>
+                </td>
               </tr>
               <tr>
                 <td headers="label">    female</td>
@@ -598,12 +597,6 @@ df &lt;- df |&gt; mutate(trt = factor(trt, labels = c("Experimental", "Control")
   median sternotomy is the opening of the pleural cavities, which can
   lead to postoperative complications such as pneumothorax, hemothorax,
   and respiratory distress.</p>
-        <fig>
-          <caption>
-            <p>Pleural Cavities</p>
-          </caption>
-          <graphic mimetype="image" mime-subtype="png" xlink:href="images/pleural_cavities.png"/>
-        </fig>
       </sec>
       <sec id="sec-data-methods-nb-article">
         <title>2 Material &amp; Methods</title>
@@ -717,19 +710,25 @@ df |&gt;
   add_p() |&gt;
   add_overall()</code>
           <boxed-text>
-            <preformat>The following warnings were returned during `add_p()`:
-! For variable `age` (`trt`) and "estimate", "statistic", "p.value",
-  "conf.low", and "conf.high" statistics: cannot compute exact p-value with
-  ties
-! For variable `age` (`trt`) and "estimate", "statistic", "p.value",
-  "conf.low", and "conf.high" statistics: cannot compute exact confidence
-  intervals with ties
-! For variable `bmi` (`trt`) and "estimate", "statistic", "p.value",
-  "conf.low", and "conf.high" statistics: cannot compute exact p-value with
-  ties
-! For variable `bmi` (`trt`) and "estimate", "statistic", "p.value",
-  "conf.low", and "conf.high" statistics: cannot compute exact confidence
-  intervals with ties</preformat>
+            <preformat>The following errors were returned during `add_p()`:
+✖ For variable `age` (`trt`) and "p.value" statistic: The package "cardx" (&gt;=
+  0.2.3) is required.
+✖ For variable `bmi` (`trt`) and "p.value" statistic: The package "cardx" (&gt;=
+  0.2.3) is required.
+✖ For variable `copd` (`trt`) and "p.value" statistic: The package "cardx" (&gt;=
+  0.2.3) is required.
+✖ For variable `diabetis` (`trt`) and "p.value" statistic: The package "cardx"
+  (&gt;= 0.2.3) is required.
+✖ For variable `hospital_mortality` (`trt`) and "p.value" statistic: The
+  package "cardx" (&gt;= 0.2.3) is required.
+✖ For variable `hospital_stay` (`trt`) and "p.value" statistic: The package
+  "cardx" (&gt;= 0.2.3) is required.
+✖ For variable `outcome` (`trt`) and "p.value" statistic: The package "cardx"
+  (&gt;= 0.2.3) is required.
+✖ For variable `sex` (`trt`) and "p.value" statistic: The package "cardx" (&gt;=
+  0.2.3) is required.
+✖ For variable `steroids` (`trt`) and "p.value" statistic: The package "cardx"
+  (&gt;= 0.2.3) is required.</preformat>
           </boxed-text>
           <fig id="tbl-demo-nb-article">
             <caption>
@@ -746,33 +745,20 @@ df |&gt;
                 </colgroup>
                 <thead>
                   <tr>
-                    <th id="label-nb-article" scope="col">
-                      <bold>Characteristic</bold>
-                    </th>
-                    <th id="stat_0-nb-article" scope="col"><bold>Overall</bold><break/>N =
+                    <th id="label-nb-article" scope="col">Characteristic</th>
+                    <th id="stat_0-nb-article" scope="col">Overall N =
             90<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-                    <th id="stat_1-nb-article" scope="col"><bold>Experimental</bold><break/>N
-            =
+                    <th id="stat_1-nb-article" scope="col">Experimental N =
             46<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-                    <th id="stat_2-nb-article" scope="col"><bold>Control</bold><break/>N =
+                    <th id="stat_2-nb-article" scope="col">Control N =
             44<named-content content-type="gt_footnote_marks"><sup>1</sup></named-content></th>
-                    <th id="p.value-nb-article" scope="col">
-                      <bold>p-value</bold>
-                      <named-content content-type="gt_footnote_marks">
-                        <sup>2</sup>
-                      </named-content>
-                    </th>
+                    <th id="p.value-nb-article" scope="col">p-value</th>
                   </tr>
                 </thead>
                 <tfoot>
                   <tr>
                     <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>1</sup></named-content>
             n (%); Mean (SD)</td>
-                  </tr>
-                  <tr>
-                    <td colspan="5"><named-content content-type="gt_footnote_marks"><sup>2</sup></named-content>
-            Pearson’s Chi-squared test; Wilcoxon rank sum test; Fisher’s
-            exact test</td>
                   </tr>
                 </tfoot>
                 <tbody>
@@ -787,7 +773,9 @@ df |&gt;
                     <td headers="stat_2">
                       <break/>
                     </td>
-                    <td headers="p.value">0.021</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
                   </tr>
                   <tr>
                     <td headers="label">    close</td>
@@ -812,35 +800,45 @@ df |&gt;
                     <td headers="stat_0">31 (6)</td>
                     <td headers="stat_1">31 (6)</td>
                     <td headers="stat_2">31 (7)</td>
-                    <td headers="p.value">0.8</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
                   </tr>
                   <tr>
                     <td headers="label">Diabetis</td>
                     <td headers="stat_0">36 (40%)</td>
                     <td headers="stat_1">20 (43%)</td>
                     <td headers="stat_2">16 (36%)</td>
-                    <td headers="p.value">0.5</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
                   </tr>
                   <tr>
                     <td headers="label">copd</td>
                     <td headers="stat_0">21 (23%)</td>
                     <td headers="stat_1">11 (24%)</td>
                     <td headers="stat_2">10 (23%)</td>
-                    <td headers="p.value">0.9</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
                   </tr>
                   <tr>
                     <td headers="label">steroids</td>
                     <td headers="stat_0">12 (13%)</td>
                     <td headers="stat_1">3 (6.5%)</td>
                     <td headers="stat_2">9 (20%)</td>
-                    <td headers="p.value">0.052</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
                   </tr>
                   <tr>
                     <td headers="label">hospital_mortality</td>
                     <td headers="stat_0">1 (1.1%)</td>
                     <td headers="stat_1">0 (0%)</td>
                     <td headers="stat_2">1 (2.3%)</td>
-                    <td headers="p.value">0.5</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
                   </tr>
                   <tr>
                     <td headers="label">hospital_stay</td>
@@ -853,7 +851,9 @@ df |&gt;
                     <td headers="stat_2">
                       <break/>
                     </td>
-                    <td headers="p.value">0.032</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
                   </tr>
                   <tr>
                     <td headers="label">    4</td>
@@ -923,7 +923,9 @@ df |&gt;
                     <td headers="stat_0">68.7 (5.8)</td>
                     <td headers="stat_1">67.9 (5.6)</td>
                     <td headers="stat_2">69.6 (6.0)</td>
-                    <td headers="p.value">0.2</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
                   </tr>
                   <tr>
                     <td headers="label">sex</td>
@@ -936,7 +938,9 @@ df |&gt;
                     <td headers="stat_2">
                       <break/>
                     </td>
-                    <td headers="p.value">0.033</td>
+                    <td headers="p.value">
+                      <break/>
+                    </td>
                   </tr>
                   <tr>
                     <td headers="label">    female</td>
@@ -1329,5 +1333,5 @@ library(gtsummary)
     <back>
 </back>
   </sub-article>
-  <!-- (F2ED4C6E)[nb-3]:/Users/rafikmargaryan/Desktop/manuscript-template/notebooks/gantt_chart.qmd -->
+  <!-- (F2ED4C6E)[nb-3]:/home/rafik/R_Programming/manuscript-template/notebooks/gantt_chart.qmd -->
 </article>
